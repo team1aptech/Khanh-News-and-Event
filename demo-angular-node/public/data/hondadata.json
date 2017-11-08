@@ -1,0 +1,59 @@
+{"honda":[
+  {
+    "src": "./image/car_offers/honda1.jpg",
+    "name": "2018 Honda NM4",
+    "detail": [
+            { "content" : "Honda's 2018 NM4 is a great way to see the world on two wheels . "},
+            { "content" : "Weighing in at 562 pounds in running order"},
+            { "content" : "With a 670cc engine with a 3.0 gallon fuel capacity"},
+            { "content" : "The most comfortable way possible"}
+    ],
+    "price": "19,000$",
+    "href": "https://www.motorcyclecruiser.com/2018-honda-nm4"
+  },
+  {
+    "src": "./image/car_offers/honda2.jpg",
+    "name": "2018 Honda Grom",
+    "detail": [
+      { "content" : "Sporty leaning-forward riding position"},
+      { "content" : "Café racer cowling and clip-on handlebars"},
+      { "content" : "High-torque air-cooled 60-degree V-twin engine"},
+      { "content" : "Piggyback-style gas rear shocks"}
+    ],
+    "price": "3,549$",
+    "href": "https://www.motorcyclecruiser.com/2018-honda-grom-abs"
+  },{
+    "src": "./image/car_offers/honda3.jpg",
+    "name": "2017 Honda Gold Wing Audio Comfort Navi XM",
+    "detail": [
+      { "content" : "Gold Wing Audio Comfort Navi XM is a great way to see the world "},
+      { "content" : "With a 1,832cc engine"},
+      { "content" : " Get a second opinion to see if this is the cruiser for you!"}
+    ],
+    "price": "28,979$",
+    "href": "https://www.motorcyclecruiser.com/2017-honda-gold-wing-audio-comfort-navi-xm-abs"
+  },{
+    "src": "./image/car_offers/honda4.jpg",
+    "name": "2017 Honda Fury",
+    "detail": [
+      { "content" : "Quality Cruisers have long been a staple in Honda's Powersports"},
+      { "content" : "The 2017 Honda Fury is a great of modern ingenuity and comfort."},
+      { "content" : "Weighing in at 663 pounds in running order"},
+      { "content" : "With 1,312cc engine combined fuel economy of 45 MPG"}
+    ],
+    "price": "10,299$",
+    "href": "https://www.motorcyclecruiser.com/2017-honda-fury"
+  },{
+    "src": "./image/car_offers/honda5.jpg",
+    "name": "2017 Honda Rebel 300 ABS",
+    "detail": [
+      { "content" : "Quality Cruisers have long been a staple in Honda's Powersports."},
+      { "content" : "Is a great blend of modern ingenuity and comfort"},
+      { "content" : "Weighing in at 370 pounds in running order"},
+      { "content" : "The technology just keeps getting better."}
+    ],
+    "price": "4,699$",
+    "href": "https://www.motorcyclecruiser.com/2017-honda-rebel-300-abs"
+  }
+]}
+

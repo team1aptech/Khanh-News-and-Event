@@ -1,0 +1,64 @@
+{"yamaha":[
+  {
+    "src": "./image/car_offers/yamaha1.jpg",
+    "name": "YZF-R6 QUICK-SHIFTER ON 2017 GSX-R1000 ABS",
+    "detail": [
+      { "content" : "YZF-R6 with next generation R-series design"},
+      { "content" : "Aggressive face with dual LED position lights"},
+      { "content" : "Quick Shift System for clutchless upshifts"},
+      { "content" : "Dual 320mm front discs with radial calipers"}
+    ],
+    "price": "20,000$",
+    "href": "https://www.yamaha-motor.eu/uk/products/motorcycles/supersport/yzf-r6.aspx#gallery=image|image=https://cdn.yamaha-motor.eu/product_assets/2018/YZF600R6/950-75/2018-Yamaha-YZF-R6-EU-Yamaha-Blue-Studio-001.jpg"
+  },
+  {
+    "src": "./image/car_offers/yamaha2.jpg",
+    "name": "NIKEN Ride the Revolution",
+    "detail": [
+      { "content" : "Totally new concept in the motorcycle industry"},
+      { "content" : "Radical, bold and unique design"},
+      { "content" : "Deep lean angle, maximum 45 degrees"},
+      { "content" : "847 cc, 3-cylinder, liquid-cooled, DOHC CP3 engine"},
+      { "content" : "TCS, QSS, A&S clutch, D-MODE, Cruise Control"}
+    ],
+    "price": "50,000$",
+    "href": "https://www.yamaha-motor.eu/uk/products/motorcycles/niken/niken.aspx#gallery=image|image=https://cdn.yamaha-motor.eu/product_assets/2018/MXT850/950-75/2018-Yamaha-MXT850-EU-Graphite-Studio-001.jpg"
+  },{
+    "src": "./image/car_offers/yamaha3.jpg",
+    "name": "MT-10 SP Speed of Darkness",
+    "detail": [
+      { "content" : "Exclusive blue/silver colour scheme"},
+      { "content" : "Torque-rich 4-cylinder 'CP4' crossplane engine"},
+      { "content" : "YCC-T, D-MODE and Traction Control System (TCS)"},
+      { "content" : "Ultra-short wheelbase aluminium Deltabox chassis"},
+      { "content" : "High specification brakes with radial front calipers"},
+      { "content" : "Dynamic mass-forward silhouette"}
+    ],
+    "price": "15,000$",
+    "href": "https://www.yamaha-motor.eu/uk/products/motorcycles/hyper-naked/mt-10-sp.aspx#gallery=image|image=https://cdn.yamaha-motor.eu/product_assets/2017/MT10DX/950-75/2017-Yamaha-MT10DX-EU-Silver-Blu-Carbon-Studio-001.jpg"
+  },{
+    "src": "./image/car_offers/yamaha4.jpg",
+    "name": "XV950 Racer Born to break rules",
+    "detail": [
+      { "content" : "Sporty leaning-forward riding position"},
+      { "content" : "Café racer cowling and clip-on handlebars"},
+      { "content" : "High-torque air-cooled 60-degree V-twin engine"},
+      { "content" : "Piggyback-style gas rear shocks"}
+    ],
+    "price": "8,900$",
+    "href": "https://www.yamaha-motor.eu/uk/products/motorcycles/sport-heritage/xv950-racer.aspx#gallery=image|image=https://cdn.yamaha-motor.eu/product_assets/2016/XV950CR/950-75/2016-Yamaha-XV950CR-EU-60th-Anniversary-Studio-001.jpg"
+  },{
+    "src": "./image/car_offers/yamaha5.jpg",
+    "name": "XT1200ZE Super Ténéré Raid Edition Fill up with adventure",
+    "detail": [
+      { "content" : "Side cases, high screen, skid plate, fog lamps"},
+      { "content" : "1199 cc, liquid-cooled, inline, 2-cylinder engine"},
+      { "content" : "Traction control, cruise control and Yamaha D-MODE"},
+      { "content" : "Tough spoked aluminium wheels with tubeless tyres"},
+      { "content" : "Adjustable seat height from 845 mm-870 mm"}
+    ],
+    "price": "30,000$",
+    "href": "https://www.yamaha-motor.eu/uk/products/motorcycles/adventure/xt1200ze-super-tenere-raid-edition.aspx#gallery=image|image=https://cdn.yamaha-motor.eu/product_assets/2018/XTZ1200ZESV/950-75/2018-Yamaha-XTZ1200ZESV-EU-Yamaha-Blue-Studio-001.jpg"
+  }
+]}
+

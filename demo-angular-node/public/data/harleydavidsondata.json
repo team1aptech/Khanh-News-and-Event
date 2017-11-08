@@ -1,0 +1,55 @@
+{"harley":[
+  {
+    "src": "./image/car_offers/harley1.jpg",
+    "name": "2018 Harley-Davidson Softail Fat Bob",
+    "detail": [
+      { "content" : "Is a great way to turn heads while having a blast on two wheels."},
+      { "content" : "Allows for ample cruising with a 3.6 gallon fuel capacity."},
+      { "content" : "With 107 ci engine to get you ripping down the road with ease."}
+    ],
+    "price": "16,999$",
+    "href": "https://www.motorcyclecruiser.com/2018-harley-davidson-softail-fat-bob"
+  },
+  {
+    "src": "./image/car_offers/harley2.jpg",
+    "name": "2018 Harley-Davidson Softail Low Rider",
+    "detail": [
+      { "content" : "Is a great way to turn heads while having a blast on two wheels."},
+      { "content" : "Allows for ample cruising with a 5.0 gallon fuel capacity."},
+      { "content" : "The 2018 Harley-Davidson Softail Low Rider boasts ."}
+    ],
+    "price": "14,999$",
+    "href": "https://www.motorcyclecruiser.com/2018-harley-davidson-softail-low-rider"
+  },{
+    "src": "./image/car_offers/harley3.jpg",
+    "name": "2018 Harley-Davidson Softail Fat Bob 114",
+    "detail": [
+      { "content" : "On Harley-Davidson's 2018 Softail Fat Bob 114 is a great ."},
+      { "content" : "Allows for ample cruising with a 3.6 gallon fuel capacity"},
+      { "content" : "With 114 ci engine to get you ripping down the road with ease."}
+    ],
+    "price": "18.699$",
+    "href": "https://www.motorcyclecruiser.com/2018-harley-davidson-softail-fat-bob-114"
+  },{
+    "src": "./image/car_offers/harley4.jpg",
+    "name": "2018 Harley-Davidson Softail Street Bob",
+    "detail": [
+      { "content" : "Is a great way to turn heads while having a blast on two wheels"},
+      { "content" : "Allows for ample cruising with a 3.5 gallon fuel capacity."},
+      { "content" : "With 107 ci engine to get you ripping down the road with ease."}
+    ],
+    "price": "14,499$",
+    "href": "https://www.motorcyclecruiser.com/2018-harley-davidson-softail-street-bob"
+  },{
+    "src": "./image/car_offers/harley5.jpg",
+    "name": "2018 Harley-Davidson Softail Breakout 114",
+    "detail": [
+      { "content" : "Is a great way to turn heads while having a blast on two wheels."},
+      { "content" : "Allows for ample cruising with a 3.5 gallon fuel capacity."},
+      { "content" : "With114 ci engine to get you ripping down the road with ease. "}
+    ],
+    "price": "20,299$",
+    "href": "https://www.motorcyclecruiser.com/2018-harley-davidson-softail-breakout-114"
+  }
+]}
+
