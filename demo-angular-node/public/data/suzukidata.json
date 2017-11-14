@@ -1,26 +1,26 @@
 {"suzuki":[
   {
     "src": "./image/car_offers/GSX-R1000_Yoshimura_Aplha_1507873479.png",
-    "name": "BONUS YOSHIMURA MUFFLER & GENUINE SUZUKI QUICK-SHIFTER ON 2017 GSX-R1000 ABS",
+    "name": "2017 GSX-R1000 ABS",
     "detail": [
       { "content" : "We won the 2017 ASBK Championship, Now You Win!"},
       { "content" : "Bonus Genuine Suzuki Quick-Shift System (fitting included FOC)"},
       { "content" : "Bonus Yoshimura Alpha Stainless Slip-On Muffler"}
       ],
-    "price": "1.500$",
-    "href": "http://www.suzukimotorcycles.com.au/offers/bonus-yoshimura-muffler-genuine-suzuki-quick-shifter-2017-gsx-r1000-abs"
+    "price": "23,990$",
+    "href": "/offers/suzuki-01"
   },
   {
     "src": "./image/car_offers/suzuki2.png",
-    "name": "$1,500 FACTORY BONUS ON 2017 HAYABUSA",
+    "name": "2017 HAYABUSA",
     "detail": [
       { "content" : "Legendary inline-four power plant"},
       { "content" : "Suzuki Drive Mode Selector (S-DMS)"},
       { "content" : "Brembo Monobloc front brake calipers with ABS"},
       { "content" : "Lightweight titanium valves"}
     ],
-    "price": "2,000$",
-    "href": "http://www.suzukimotorcycles.com.au/offers/1500-factory-bonus-2017-hayabusa"
+    "price": "20,790$",
+    "href": "/offers/suzuki-02"
   },
   {
     "src": "./image/car_offers/suzuki3.png",
@@ -32,7 +32,7 @@
       { "content" : "Showa Big Piston Fork (BPF) & Electronic Steering Damper"}
     ],
     "price": "19,990$",
-    "href": "http://www.suzukimotorcycles.com.au/offers/2017-gsx-r750-run-out-ride-away"
+    "href": "/offers/suzuki-03"
   },
   {
     "src": "./image/car_offers/suzuki4.png",
@@ -43,8 +43,8 @@
       { "content" : "Brembo Monobloc front brake calipers"},
       { "content" : "Showa Big Piston Fork (BPF) & Electronic Steering Damper"}
     ],
-    "price": "13,790$",
-    "href": "http://www.suzukimotorcycles.com.au/offers/2017-gsx-r600-run-out-ride-away"
+    "price": "16,490$",
+    "href": "/offers/suzuki-04"
   },
   {
     "src": "./image/car_offers/suzuki5.png",
@@ -56,30 +56,8 @@
       { "content" : "Adjustable throttle limiter and keyed ignition"}
     ],
     "price": "2,090$",
-    "href": "http://www.suzukimotorcycles.com.au/offers/dr-z70-special-christmas-pricing"
-  },
-  {
-    "src": "./image/car_offers/suzuki6.png",
-    "name": "QUADSPORT Z90 SPECIAL CHRISTMAS PRICING",
-    "detail": [
-      { "content" : "Fully-automatic CVT ABS"},
-      { "content" : "Electric start with back-up recoil starter"},
-      { "content" : "Low 650mm seat height for smaller riders"},
-      { "content" : "19x7-8 front and rear tires make for a smoother ride"}
-    ],
-    "price": "2,990$",
-    "href": "http://www.suzukimotorcycles.com.au/offers/quadsport-z90-special-christmas-pricing"
-  },
-  {
-    "src": "./image/car_offers/suzuki7.png",
-    "name": "2016 V-STROM 650 LEARNER APPROVED RUN OUT OFFER",
-    "detail": [
-      { "content" : "645cm3 90-degree V-twin engine auto"},
-      { "content" : "Anti-lock Brake System (ABS) for safe"},
-      { "content" : "3-way adjustable windscreen"}
-    ],
-    "price": "9,990$",
-    "href": "http://www.suzukimotorcycles.com.au/offers/2016-v-strom-650-learner-approved-run-out-offer"
+    "href": "/offers/suzuki-05"
   }
+
 ]}
 

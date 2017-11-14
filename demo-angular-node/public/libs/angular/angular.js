@@ -7,7 +7,7 @@
 
 /* exported
   minErrConfig,
-  errorHandlingConfig,
+  errorHandlingConfig,localStorage
   isValidObjectMaxDepth
 */
 

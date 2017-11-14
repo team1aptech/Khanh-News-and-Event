@@ -22,6 +22,8 @@
 	<!--font for detail product-->
 	<link href="https://fonts.googleapis.com/css?family=Fenix" rel="stylesheet">
 	<!--Custom style-->
+	<link rel="stylesheet" href="css/shopping-cart-style.css">
+
 	<style type="text/css">
 		html,
 		body {
@@ -117,10 +119,13 @@
 
 		}
 		.love{
-			border-bottom: 4px black solid
+			border-bottom: 4px black solid;
+			background: url("./images/BMW/bmw-1.jpg");
+
 		}
 		.hate{
-			border-bottom: 4px white solid
+			border-bottom: 4px white solid;
+			background: url("./images/BMW/bmw-1a.jpg");
 		}
 
 	</style>
@@ -128,20 +133,40 @@
 
 	<!-- JS -->
 	<script src="libs/angular/angular.min.js"></script>
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.5/angular.min.js" type="text/javascript"></script>-->
 	<script src="libs/angular-route/angular-route.min.js"></script>
+
 	<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>-->
 	<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>-->
 
 	<!-- ANGULAR CUSTOM -->
+	<script src="js/controllers/StoreCtrl-3.js"></script>
+	<!--<script src="js/controllers/StoreCtrl-1.js"></script>-->
+	<!--<script src="js/controllers/StoreCtrl.js"></script>-->
 	<script src="js/controllers/MainCtrl.js"></script>
+	<!--<script src="js/controllers/logout.js"></script>-->
 	<script src="js/controllers/NewsCtrl.js"></script>
 	<script src="js/controllers/DetailCtrl.js"></script>
 	<script src="js/appRoutes.js"></script>
 	<script src="js/app.js"></script>
+<!--demo AJAX-->
+	<!--<script src="data/bmwdata.json"></script>-->
+
+	<!--<script>-->
+		<!--var hr = new XMLHttpRequest();-->
+		<!--var url = "data/bmwdata.json";-->
+
+		<!--hr.open("GET", url, true);-->
+		<!--hr.send();-->
+		<!--console.log(hr);-->
+	<!--</script>-->
+<!--demo AJAX-->
+
+
 </head>
 <body ng-app="myApp">
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-inverse navbar-fixed-top" >
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
@@ -156,36 +181,42 @@
 		</div>
 		<div class="collapse navbar-collapse" id="bs-nav-demo">
 			<ul class="nav navbar-nav">
-				<li><a href="/">Home</a></li>
-				<li><a href="/news">News <span class="sr-only">(current)</span></a></li>
+				<li><a href="/" onClick="window.location.reload()">Home</a></li>
+				<li><a href="/news">News</a></li>
 				<li class="dropdown">
-					<a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+					<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="#">Yamaha</a></li>
+						<li><a href="/yamaha">Yamaha</a></li>
 						<li role="separator" class="divider"></li>
-						<li><a href="#">Honda</a></li>
+						<li><a href="/honda">Honda</a></li>
 						<li role="separator" class="divider"></li>
-						<li><a href="#">Suzuki</a></li>
+						<li><a href="/suzuki">Suzuki</a></li>
 						<li role="separator" class="divider"></li>
-						<li><a href="#">Harley-Davidson</a></li>
+						<li><a href="/harley">Harley-Davidson</a></li>
 						<li role="separator" class="divider"></li>
-						<li><a href="#">Kawasaki</a></li>
+						<li><a href="/kawasaki">Kawasaki</a></li>
 						<li role="separator" class="divider"></li>
-						<li><a href="#">BMW</a></li>
-						<li role="separator" class="divider"></li>
-						<li><a href="#">Triumph</a></li>
+						<li><a href="/bmw">BMW</a></li>
 					</ul>
 				</li>
-				<li><a href="/">Prices <span class="sr-only">(current)</span></a></li>
 				<li><a href="/">Contact <span class="sr-only">(current)</span></a></li>
+				<li>
+					<div  style="margin-left: 2px; padding: 5px" ng-controller="storeController">
+						<a href="/cart" title="go to shopping cart" ng-disabled="cart.getTotalCount() < 1">
+							<i class="fa fa-shopping-cart" aria-hidden="true">  </i>
+							<b>{{cart.getTotalCount()}}</b> items - <b>{{cart.getTotalPrice() | currency:$:0}}</b>
+						</a>
+					</div>
+
+				</li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-				<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				<li><a href="/"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+				<li><a href="/"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 				<li>
 					<form class="navbar-form navbar-left">
 						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Search">
+							<input type="text" class="form-control" placeholder="Search" size="15">
 						</div>
 						<button type="submit" class="btn btn-default">Submit</button>
 					</form>
@@ -202,6 +233,73 @@
 
 
 
+<footer class=" footer index-link col-sm-12 col-md-12 col-lg-12 ">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3 col-md-3 col-lg-3">
+				<div class="link-area">
+					<h3>FOLLOW US</h3>
+					<P>We specialize in selling motor vehicles and associated services.</P>
+					<div class="col-sm-12 col-md-12 col-lg-12">
+						<div class="col-sm-4 col-md-4 col-lg-4">
+							<a href="#" class="fa fa-facebook"></a>
+						</div>
+						<div class="col-sm-4 col-md-4 col-lg-4">
+							<a href="#" class="fa fa-twitter"></a>
+						</div>
+						<div class="col-sm-4 col-md-4 col-lg-4">
+							<a href="#" class="fa fa-google"></a>
+						</div>
+
+
+
+					</div>
+
+
+
+				</div>
+			</div>
+			<div class="col-sm-3 col-md-3 col-lg-3">
+				<div class="link-area">
+					<h3>SITE</h3>
+					<ul>
+						<li><a href="#"> FAQ </a></li>
+						<li><a href="#"> SITE MAP</a></li>
+
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-3 col-md-3 col-lg-3">
+				<div class="link-area">
+					<h3>PRODUCT</h3>
+					<ul>
+						<li><a href="#"> Product</a></li>
+						<li><a href="#"> Product</a></li>
+						<li><a href="#"> Product</a></li>
+
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-3 col-md-3 col-lg-3">
+				<div class="link-area">
+					<h3>FINANCE</h3>
+					<ul>
+						<li><a href="#"> Method Finance</a></li>
+						<li><a href="#"> Insurance</a></li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section class="index-social" style="width: 100%; height:30px; text-align: center">
+		<div class="container">
+			<div>
+				<p>   &copy;Team 1  </p>
+			</div>
+		</div>
+	</section>
+</footer>
 
 <!--</div>-->
 <div id="fb-root"></div>

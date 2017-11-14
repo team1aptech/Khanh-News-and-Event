@@ -1,15 +1,15 @@
 {"honda":[
   {
     "src": "./image/car_offers/honda1.jpg",
-    "name": "2018 Honda NM4",
+    "name": "CBR1000RR",
     "detail": [
-            { "content" : "Honda's 2018 NM4 is a great way to see the world on two wheels . "},
+            { "content" : "CBR1000RRis a great way to see the world on two wheels . "},
             { "content" : "Weighing in at 562 pounds in running order"},
-            { "content" : "With a 670cc engine with a 3.0 gallon fuel capacity"},
+            { "content" : "With a 1000cc engine with a 4.0 gallon fuel capacity"},
             { "content" : "The most comfortable way possible"}
     ],
-    "price": "19,000$",
-    "href": "https://www.motorcyclecruiser.com/2018-honda-nm4"
+    "price": "16,499$",
+    "href": "/offers/honda-01"
   },
   {
     "src": "./image/car_offers/honda2.jpg",
@@ -21,7 +21,7 @@
       { "content" : "Piggyback-style gas rear shocks"}
     ],
     "price": "3,549$",
-    "href": "https://www.motorcyclecruiser.com/2018-honda-grom-abs"
+    "href": "/offers/honda-02"
   },{
     "src": "./image/car_offers/honda3.jpg",
     "name": "2017 Honda Gold Wing Audio Comfort Navi XM",
@@ -31,7 +31,7 @@
       { "content" : " Get a second opinion to see if this is the cruiser for you!"}
     ],
     "price": "28,979$",
-    "href": "https://www.motorcyclecruiser.com/2017-honda-gold-wing-audio-comfort-navi-xm-abs"
+    "href": "/offers/honda-03"
   },{
     "src": "./image/car_offers/honda4.jpg",
     "name": "2017 Honda Fury",
@@ -42,10 +42,10 @@
       { "content" : "With 1,312cc engine combined fuel economy of 45 MPG"}
     ],
     "price": "10,299$",
-    "href": "https://www.motorcyclecruiser.com/2017-honda-fury"
+    "href": "/offers/honda-04"
   },{
     "src": "./image/car_offers/honda5.jpg",
-    "name": "2017 Honda Rebel 300 ABS",
+    "name": "2017 Honda Rebel ABS",
     "detail": [
       { "content" : "Quality Cruisers have long been a staple in Honda's Powersports."},
       { "content" : "Is a great blend of modern ingenuity and comfort"},
@@ -53,7 +53,7 @@
       { "content" : "The technology just keeps getting better."}
     ],
     "price": "4,699$",
-    "href": "https://www.motorcyclecruiser.com/2017-honda-rebel-300-abs"
+    "href": "/offers/honda-05"
   }
 ]}
 

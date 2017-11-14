@@ -8,7 +8,7 @@
       { "content" : "With 107 ci engine to get you ripping down the road with ease."}
     ],
     "price": "16,999$",
-    "href": "https://www.motorcyclecruiser.com/2018-harley-davidson-softail-fat-bob"
+    "href": "/offers/harley-01"
   },
   {
     "src": "./image/car_offers/harley2.jpg",
@@ -19,7 +19,7 @@
       { "content" : "The 2018 Harley-Davidson Softail Low Rider boasts ."}
     ],
     "price": "14,999$",
-    "href": "https://www.motorcyclecruiser.com/2018-harley-davidson-softail-low-rider"
+    "href": "/offers/harley-02"
   },{
     "src": "./image/car_offers/harley3.jpg",
     "name": "2018 Harley-Davidson Softail Fat Bob 114",
@@ -29,7 +29,7 @@
       { "content" : "With 114 ci engine to get you ripping down the road with ease."}
     ],
     "price": "18.699$",
-    "href": "https://www.motorcyclecruiser.com/2018-harley-davidson-softail-fat-bob-114"
+    "href": "/offers/harley-03"
   },{
     "src": "./image/car_offers/harley4.jpg",
     "name": "2018 Harley-Davidson Softail Street Bob",
@@ -39,7 +39,7 @@
       { "content" : "With 107 ci engine to get you ripping down the road with ease."}
     ],
     "price": "14,499$",
-    "href": "https://www.motorcyclecruiser.com/2018-harley-davidson-softail-street-bob"
+    "href": "/offers/harley-04"
   },{
     "src": "./image/car_offers/harley5.jpg",
     "name": "2018 Harley-Davidson Softail Breakout 114",
@@ -49,7 +49,7 @@
       { "content" : "With114 ci engine to get you ripping down the road with ease. "}
     ],
     "price": "20,299$",
-    "href": "https://www.motorcyclecruiser.com/2018-harley-davidson-softail-breakout-114"
+    "href": "/offers/harley-05"
   }
 ]}
 

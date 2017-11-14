@@ -30,5 +30,10 @@ angular.module('NewsCtrl', [])
                 $scope.yamahaes = response.data.yamaha;
             });
 
+            $scope.bmws = [];
+            $http.get("data/bmwdata.json").then(function (response) {
+                $scope.bmws = response.data.bmw;
+            });
+
 
     });

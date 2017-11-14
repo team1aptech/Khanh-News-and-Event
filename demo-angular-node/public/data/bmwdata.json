@@ -1,0 +1,68 @@
+{"bmw":[
+  {
+    "src": "./image/car_offers/bmw1.jpg",
+    "name": "BMW S 1000 RR",
+    "detail": [
+                { "content" : "Liquid-cooled 4-stroke in-line 4-cylinder engine. "},
+                { "content" : "Four valves per cylinder, double overhead camshafts."},
+                { "content" : "Electronic fuel injection with ride-by-wire throttle system and sensor"},
+                { "content" : "Closed-loop 3-way catalytic converters."},
+                { "content" : "EU-4 norm with electronically controlled interference pipe."}
+              ],
+    "price": "15.995$",
+    "href": "/offers/bmw-01",
+    "branch": "BMW",
+    "description": "Liquid-cooled 4-stroke in-line 4-cylinder engine."
+
+  },
+  {
+    "src": "./image/car_offers/bmw2.jpg",
+    "name": " BMW R 1200 GS ADVENTURE",
+    "detail": [
+      { "content" : "Air/liquid-cooled four stroke flat twin engine with balancer shaft"},
+      { "content" : "Four valves per cylinder, double overhead camshaft."},
+      { "content" : "BMW Motorrad Telelever; stanchion diameter 37 mm, central spring"},
+      { "content" : "Dual disc brake, floating brake, diameter 305 mm, 4-piston calipers"}
+    ],
+    "price": "18,895$",
+    "href": "/offers/bmw-02"
+  },{
+    "src": "./image/car_offers/bmw3.jpg",
+    "name": "BMW C 650 GT",
+    "detail": [
+                { "content" : "31.7 ' (805 mm) Standard; low seat height 30.9'  (785 mm)"},
+                { "content" : "Available as accessory and/or factory option authorized BMW"},
+                { "content" : "75.2 (1,910 mm) Standard; low seat inner leg curve (inseam) "},
+                { "content" : "Single disc brake, diameter 270 mm, 2-piston floating caliper"}
+              ],
+    "price": "10,595$",
+    "href": "/offers/bmw-03"
+  },
+  {
+    "src": "./image/car_offers/bmw4.jpg",
+    "name": "BMW S 1000 XR",
+    "detail": [
+                { "content" : "CNC-milled, HP driver footrests, including gear and brake levers"},
+                { "content" : "High-strength aluminum alloy, light and extremely rigid"},
+                { "content" : "Detailed operating instructions for ergonomic settings"},
+                { "content" : "Driver and rear footrests with laser-engraved BMW Motorrad"},
+                { "content" : "Installation only by an authorized BMW Motorrad dealer"}
+              ],
+    "price": "16,445$",
+    "href": "/offers/bmw-04"
+  },
+  {
+    "src": "./image/car_offers/bmw5.jpg",
+    "name": "BMW C EVOLUTION",
+    "detail": [
+                  { "content" : "Capacity: approx. 35 l, big enough to accommodate 1 helmet"},
+                  { "content" : " Waterproof and with lid finishers paint available in vehicle"},
+                  { "content" : "Single key locking system for vehicle key possible"},
+                  { "content" : "Optional: liner for topcase, backrest pad for topcase"},
+                  { "content" : "Color: black/Ionic silver metallic"}
+              ],
+    "price": "13,750$",
+    "href": "/offers/bmw-05"
+  }
+]}
+

@@ -5,17 +5,25 @@
 <div class="container" style="margin-top: 80px; line-height: 1">
     <div class="row">
         <div class="col-md-9 col-sm-12">
-            <img id="myImage" src="../images/BMW/bmw-1.jpg" style="width:100%">
+            <img id="myImage" src="../../images/honda/honda-5.jpg" style="width:100%">
         </div>
 
         <div class="col-md-3 col-sm-12">
-            <h1 style="font-family: 'Archivo Black', sans-serif;" >BMW S1000RR <span style="font-size: 18px">(including ABS)</span></h1>
-            <h2>$15,995</h2>
-            <a href="/"   class="btn btn-success">Add to Cart</a>
-            <h4>Color</h4>
-            <a ng-click="changeClass()" ng-class="class"  style="padding: 3px 2px; " class="btn " onclick="document.getElementById('myImage').src='/images/BMW/bmw-1.jpg'"><img src="../images/icon/blackColor.jpg" title="Black"></a>
-            <a  ng-click="changeClass()" ng-class="class1"  style="padding: 3px 2px; " class="btn" onclick="document.getElementById('myImage').src='/images/BMW/bmw-1a.jpg'"> <img src="../images/icon/whiteBlueRedColor.jpg" title="White, Bule and Red"></a>
+            <h1 style="font-family: 'Archivo Black', sans-serif;" >{{store.products.hondaes[4].name}} <span style="font-size: 18px">(including ABS)</span></h1>
 
+            <div>
+                <h2>{{store.products.hondaes[4].price| currency:$:0}}</h2>
+                <a href="/cart" ng-click="cart.addItem(store.products.hondaes[4].branch, store.products.hondaes[4].name, store.products.hondaes[4].price, 1)" class="btn btn-success">
+                    add to cart
+                </a>
+            </div>
+
+            <h4>Color</h4>
+            <div ng-init="selectedTab = 'active'">
+                <a  ng-class="{'love':selectedTab === 'active'}" ng-click="selectedTab = 'active'" style="padding: 3px 2px; " class="btn " onclick="document.getElementById('myImage').src='../images/honda/honda-5.jpg'"><img src="../../images/icon/greenColor.jpg" title="Green"></a>
+                <a  ng-class="{'love':selectedTab === 'active1'}" ng-click="selectedTab = 'active1'" style="padding: 3px 2px; " class="btn " onclick="document.getElementById('myImage').src='../images/honda/honda-5a.jpg'"><img src="../../images/icon/blackColor.jpg" title="Black"></a>
+                <a  ng-class="{'love':selectedTab === 'active2'}" ng-click="selectedTab = 'active2'" style="padding: 3px 2px; " class="btn " onclick="document.getElementById('myImage').src='../images/honda/honda-5b.jpg'"><img src="../../images/icon/redColor.jpg" title="Red"></a>
+            </div>
 
         </div>
     </div>
@@ -34,8 +42,8 @@
 
                         <div>
                             <div >
-                                <h3><strong>BMW S 1000 RR</strong></h3>
-                                <p>The BMW S 1000 RR led to a revolution in the supersport motorcycle category right from the outset. Thereafter, the bike continued to be developed, its tried and tested concept being honed even further and the latest technology added.</p>
+                                <h3><strong>2017 Honda Rebel ABS</strong></h3>
+                                <p>The 2017 Honda Rebel ABS a revolution in the supersport motorcycle category right from the outset. Thereafter, the bike continued to be developed, its tried and tested concept being honed even further and the latest technology added.</p>
                                 <p>The look of a winner. Or a high-performer. Or a fighter. The RR is the epitome of a superbike. With its distinctive design features like the split face and asymmetrical front headlamps, it is instantly recognizable. </p>
                                 <p>The RR is even more refined with the optional accessory Ride Modes Pro, with its two individual modes – "Slick" and "User Mode" as well as cornering-optimized ABS Pro with lean-angle sensor.</p>
                                 <p><strong>Details</strong></p>
@@ -145,57 +153,5 @@
         </div>
 
     </div>
-
-
-
-
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -1,0 +1,244 @@
+{
+  "product":
+    {"bmw":
+            [
+              {
+              "name": "BMW S1000RR",
+              "branch": "BMW",
+              "imga": "bmw-1",
+              "price": 15995,
+              "description": "Liquid-cooled 4-stroke in-line 4-cylinder engine."
+              },
+              {
+                "name": "BMW R1200GS",
+                "branch": "BMW",
+                "srcImg1": "bmw-2",
+                "price": 18895,
+                "description": "Liquid-cooled 4-stroke in-line 4-cylinder engine."
+              },
+              {
+                "name": "BMW C650GT",
+                "branch": "BMW",
+                "srcImg1": "bmw-3",
+                "price": 10595,
+                "description": "Single disc brake, diameter 270 mm, 2-piston floating caliper."
+              },
+              {
+                "name": "BMW S1000XR",
+                "branch": "BMW",
+                "srcImg1": "bmw-4",
+                "price": 16445,
+                "description": "Installation only by an authorized BMW Motorrad dealer."
+              },
+              {
+                "name": "BMW C EVOLUTION",
+                "branch": "BMW",
+                "srcImg1": "bmw-5",
+                "price": 13750,
+                "description": "Capacity: approx. 35 l, big enough to accommodate 1 helmet."
+              }
+
+
+            ],
+
+    "yamaha":
+            [
+              {
+                "name": "YZF-R6 QUICK-SHIFTER ON 2017",
+                "branch": "YAMAHA",
+                "srcImg1": "yamaha-1",
+                "price": 20000,
+                "description": "YZF-R6 with next generation R-series design."
+              },
+              {
+                "name": "NIKEN Ride the Revolution",
+                "branch": "YAMAHA",
+                "srcImg1": "yamaha-2",
+                "price": 50000,
+                "description": "Totally new concept in the motorcycle industry."
+              },
+              {
+                "name": "MT-10 SP Speed of Darkness",
+                "branch": "YAMAHA",
+                "srcImg1": "yamaha-3",
+                "price": 15000,
+                "description": "Torque-rich 4-cylinder 'CP4' crossplane engine."
+              },
+              {
+                "name": "BOLT R‑SPEC",
+                "branch": "YAMAHA",
+                "srcImg1": "yamaha-4",
+                "price": 8900,
+                "description": "Torque-rich 4-cylinder 'CP4' crossplane engine."
+              },
+              {
+                "name": "TRACER 900 GT",
+                "branch": "YAMAHA",
+                "srcImg1": "yamaha-5",
+                "price": 30000,
+                "description": "847cc liquid-cooled, DOHC, inline 3-cylinder; 12 valves."
+              }
+            ],
+      "honda":
+            [
+              {
+                "name": "CBR1000RR",
+                "branch": "HONDA",
+                "srcImg1": "honda-1",
+                "price": 16499,
+                "description": "CBR1000RRis a great way to see the world on two wheels."
+              },
+              {
+                "name": "2018 Honda Grom",
+                "branch": "HONDA",
+                "srcImg1": "honda-2",
+                "price": 3549,
+                "description": "CBR1000RRis a great way to see the world on two wheels."
+              },
+              {
+                "name": "2017 Honda Gold Wing Audio Comfort Navi XM",
+                "branch": "HONDA",
+                "srcImg1": "honda-3",
+                "price": 28979,
+                "description": "CBR1000RRis a great way to see the world on two wheels."
+              },
+              {
+                "name": "2017 Honda Fury",
+                "branch": "HONDA",
+                "srcImg1": "honda-4",
+                "price": 10299,
+                "description": "CBR1000RRis a great way to see the world on two wheels."
+              },
+              {
+                "name": "2017 Honda Rebel ABS",
+                "branch": "HONDA",
+                "srcImg1": "honda-5",
+                "price": 4699,
+                "description": "2017 Honda Rebel ABS is a great way to see the world on two wheels."
+              }
+
+            ],
+      "kawasaki":
+            [
+              {
+                "name": "Kawasaki NINJA H2",
+                "branch": "Kawasaki",
+                "srcImg1": "kawasaki-1",
+                "price": 28000,
+                "description": "Dual radial-mount, opposed 4-piston calipers."
+              },
+              {
+                "name": "NINJA ZX™-6R ABS KRT EDITION",
+                "branch": "Kawasaki",
+                "srcImg1": "kawasaki-2",
+                "price": 11999,
+                "description": "CBR1000RRis a great way to see the world on two wheels."
+              },
+              {
+                "name": "NINJA 300 ABS WINTER TEST EDITION",
+                "branch": "Kawasaki",
+                "srcImg1": "kawasaki-3",
+                "price": 5599,
+                "description": "CBR1000RRis a great way to see the world on two wheels."
+              },
+              {
+                "name": "KAWASAKI VULCAN 1700 VOYAGER® ABS",
+                "branch": "Kawasaki",
+                "srcImg1": "kawasaki-4",
+                "price": 17499,
+                "description": "CBR1000RRis a great way to see the world on two wheels."
+              },
+              {
+                "name": "KAWASAKI KLX®250 CAMO",
+                "branch": "Kawasaki",
+                "srcImg1": "kawasaki-5",
+                "price": 5549,
+                "description": "2017 Honda Rebel ABS is a great way to see the world on two wheels."
+              }
+
+            ],
+      "suzuki":
+      [
+        {
+          "name": "GSX-R1000 ABS",
+          "branch": "Sukuki",
+          "srcImg1": "Sukuki-1",
+          "price": 23990,
+          "description": "Dual radial-mount, opposed 4-piston calipers."
+        },
+        {
+          "name": "2017 HAYABUSA",
+          "branch": "Sukuki",
+          "srcImg1": "Sukuki-2",
+          "price": 20790,
+          "description": "CBR1000RRis a great way to see the world on two wheels."
+        },
+        {
+          "name": "2017 GSX-R750",
+          "branch": "Sukuki",
+          "srcImg1": "Sukuki-3",
+          "price": 19990,
+          "description": "CBR1000RRis a great way to see the world on two wheels."
+        },
+        {
+          "name": "2017 GSX-R600",
+          "branch": "Sukuki",
+          "srcImg1": "Sukuki-4",
+          "price": 16490,
+          "description": "CBR1000RRis a great way to see the world on two wheels."
+        },
+        {
+          "name": "DR-Z70 SPECIAL CHRISTMAS PRICING",
+          "branch": "Sukuki",
+          "srcImg1": "Sukuki-5",
+          "price": 2090,
+          "description": "2017 Honda Rebel ABS is a great way to see the world on two wheels."
+        }
+      ],
+      "harley":
+      [
+        {
+          "name": "2018 Harley-Davidson Softail Fat Bob",
+          "branch": "Harley Davidson",
+          "srcImg1": "Harley Davidson-1",
+          "price": 16999,
+          "description": "Dual radial-mount, opposed 4-piston calipers."
+        },
+        {
+          "name": "2018 Harley-Davidson Softail Low Rider",
+          "branch": "Harley Davidson",
+          "srcImg1": "Harley Davidson-2",
+          "price": 14999,
+          "description": "CBR1000RRis a great way to see the world on two wheels."
+        },
+        {
+          "name": "2018 Harley-Davidson Softail Fat Bob 114",
+          "branch": "Harley Davidson",
+          "srcImg1": "Harley Davidson-3",
+          "price": 18699,
+          "description": "CBR1000RRis a great way to see the world on two wheels."
+        },
+        {
+          "name": "2018 Harley-Davidson Softail Street Bob",
+          "branch": "Harley Davidson",
+          "srcImg1": "Harley Davidson-4",
+          "price": 14499,
+          "description": "CBR1000RRis a great way to see the world on two wheels."
+        },
+        {
+          "name": "2018 Harley-Davidson Softail Breakout 114",
+          "branch": "Harley Davidson",
+          "srcImg1": "Harley Davidson-5",
+          "price": 20299,
+          "description": "2017 Honda Rebel ABS is a great way to see the world on two wheels."
+        }
+
+      ]
+
+
+
+
+  }
+
+
+}
