@@ -1,0 +1,65 @@
+
+
+<div id="header">
+    <nav class="navbar navbar-inverse" >
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand" style="margin-left: 2px; padding: 5px">
+                    <a href="/"><i class="fa fa-motorcycle" aria-hidden="true">  </i> &nbsp Drive With Smiles</a>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-nav-demo">
+                <ul class="nav navbar-nav">
+                    <li><a href="/" onClick="window.location.reload()">Home</a></li>
+                    <li><a href="/news">News</a></li>
+                    <li class="dropdown">
+                        <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/yamaha">Yamaha</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/honda">Honda</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/suzuki">Suzuki</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/harley">Harley-Davidson</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/kawasaki">Kawasaki</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/bmw">BMW</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/">Contact <span class="sr-only">(current)</span></a></li>
+                    <li>
+                        <div  style="margin-left: 2px; padding: 5px" ng-controller="storeController">
+                            <a href="/cart" title="go to shopping cart" ng-disabled="cart.getTotalCount() < 1">
+                                <i class="fa fa-shopping-cart" aria-hidden="true">  </i>
+                                <b>{{cart.getTotalCount()}}</b> items - <b>{{cart.getTotalPrice() | currency:$:0}}</b>
+                            </a>
+                        </div>
+
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="/"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li>
+                        <form class="navbar-form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search" size="15">
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+</div>

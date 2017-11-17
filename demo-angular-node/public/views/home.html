@@ -1,85 +1,117 @@
-<!--<div class="jumbotron text-center">-->
-	<!--<h1>Home Page 4 Life</h1>-->
-
-	<!--<p>{{ tagline }}</p>-->
-<!--</div>-->
 
 
-<section id="cover" class="body-main" style="height: 1000px">
-	<div id="cover-caption">
-		<div class="container">
-			<div class="col-sm-12">
-				<h1 class="slogan">Welcome to Drive With Smiles</h1>
-				<br>
-				<h2>Let us bring to you a new experience in driving</h2>
-				<h2>The place to buy any motorcycle, accessory, component or part.</h2>
-
-				<form action="" class="form-inline">
-					<div class="form-group">
-						<label class="sr-only">Name</label>
-						<input type="text" class="form-control form-control-lg" placeholder="Your Name">
-					</div>
-					<div class="form-group">
-						<label class="sr-only">Email</label>
-						<input type="text" class="form-control form-control-lg" placeholder="Your Email">
-					</div>
-					<button type="submit" class="btn btn-success btn-lg">Okay, Go!</button>
-				</form>
-				<br>
-				<a href="#main" onClick="window.location.reload()" class="btn btn-success btn-sm" role="button"> &darr; </a>
-			</div>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12 col-md-12 col-lg-12">
+			<img src="../image/banner/head.png" class="img-responsive"/>
 		</div>
 	</div>
-</section>
+	<div nav-bar></div>
 
+	<section>
+			<div id="carousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel" data-slide-to="1"></li>
+					<li data-target="#carousel" data-slide-to="2"></li>
+				</ol>
 
-<!--carousel-->
-<section id="main">
-	<div id="carousel" class="carousel slide" data-ride="carousel">
-		<!-- Indicators -->
-		<ol class="carousel-indicators">
-			<li data-target="#carousel" data-slide-to="0" class="active"></li>
-			<li data-target="#carousel" data-slide-to="1"></li>
-			<li data-target="#carousel" data-slide-to="2"></li>
-		</ol>
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="../images/background/1-Honda-1000RR.jpg" alt="Honda 1000RR">
+						<div class="carousel-caption">
+							<h3>Honda 1000RR</h3>
+							<p>Powerfull machine</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="../images/background/2-honda-CBR.jpg" alt="Two hands making a heart">
+						<div class="carousel-caption">
+							<h3>Making love</h3>
+							<p>With their hands...</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="../images/background/1-Yamaha-MT-05.jpg" alt="Two hands making a heart">
+						<div class="carousel-caption">
+							<h3>Making love</h3>
+							<p>With their hands...</p>
+						</div>
+					</div>
 
-		<!-- Wrapper for slides -->
-		<div class="carousel-inner" role="listbox">
-			<div class="item active">
-				<img src="../images/background/1-Honda-1000RR.jpg" alt="Honda 1000RR">
-				<div class="carousel-caption">
-					<h3>Honda 1000RR</h3>
-					<p>Powerfull machine</p>
 				</div>
-			</div>
-			<div class="item">
-				<img src="../images/background/2-honda-CBR.jpg" alt="Two hands making a heart">
-				<div class="carousel-caption">
-					<h3>Making love</h3>
-					<p>With their hands...</p>
-				</div>
-			</div>
-			<div class="item">
-				<img src="../images/background/1-Yamaha-MT-05.jpg" alt="Two hands making a heart">
-				<div class="carousel-caption">
-					<h3>Making love</h3>
-					<p>With their hands...</p>
-				</div>
-			</div>
 
-		</div>
+				<!-- Controls -->
+				<a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</section>
 
-		<!-- Controls -->
-		<a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-		<a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
-		</a>
-	</div>
-</section>
+
+	<!--<div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin: auto; width:100%">-->
+		<!--&lt;!&ndash; Indicators &ndash;&gt;-->
+		<!--<ol class="carousel-indicators">-->
+			<!--<li data-target="#myCarousel" data-slide-to="0" class="active"></li>-->
+			<!--<li data-target="#myCarousel" data-slide-to="1"></li>-->
+			<!--<li data-target="#myCarousel" data-slide-to="2"></li>-->
+			<!--&lt;!&ndash;<li data-target="#myCarousel" data-slide-to="3"></li>&ndash;&gt;-->
+			<!--&lt;!&ndash;<li data-target="#myCarousel" data-slide-to="4"></li>&ndash;&gt;-->
+			<!--&lt;!&ndash;<li data-target="#myCarousel" data-slide-to="5"></li>&ndash;&gt;-->
+			<!--&lt;!&ndash;<li data-target="#myCarousel" data-slide-to="6"></li>&ndash;&gt;-->
+		<!--</ol>-->
+		<!--&lt;!&ndash; Wrapper for slides &ndash;&gt;-->
+
+		<!--<div class="carousel-inner">-->
+			<!--<div class="item active">-->
+				<!--<img src="../image/banner/1-Honda-1000RR.jpg" alt="PLK moto" style="width:100%">-->
+			<!--</div>-->
+			<!--<div class="item">-->
+				<!--<img src="../image/banner/1-Yamaha-MT-05.jpg" alt="PLK moto" style="width:100%;">-->
+			<!--</div>-->
+			<!--<div class="item">-->
+				<!--<img src="../image/banner/2-honda-CBR.jpg" alt="PLK moto" style="width:100%;">-->
+			<!--</div>-->
+
+			<!--&lt;!&ndash;<div class="item">&ndash;&gt;-->
+			<!--&lt;!&ndash;<img src="./image/banner/1-Yamaha-MT-05.jpg" alt="PLK moto" style="width:100%;">&ndash;&gt;-->
+			<!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+			<!--&lt;!&ndash;<div class="item">&ndash;&gt;-->
+			<!--&lt;!&ndash;<img src="./image/banner/2-honda-CBR.jpg" alt="PLK moto" style="width:100%;">&ndash;&gt;-->
+			<!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+
+			<!--&lt;!&ndash;<div class="item">&ndash;&gt;-->
+			<!--&lt;!&ndash;<img src="./image/banner/6.png" alt="PLK moto" style="width:100%;">&ndash;&gt;-->
+			<!--&lt;!&ndash;<div class="carousel-caption">&ndash;&gt;-->
+
+			<!--&lt;!&ndash;<h1 style="font-size: 50px">&ndash;&gt;-->
+			<!--&lt;!&ndash;TRIUMPH&ndash;&gt;-->
+			<!--&lt;!&ndash;</h1>&ndash;&gt;-->
+			<!--&lt;!&ndash;<br>&ndash;&gt;-->
+
+			<!--&lt;!&ndash;</div>&ndash;&gt;-->
+			<!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+		<!--</div>-->
+
+		<!--&lt;!&ndash; Left and right controls &ndash;&gt;-->
+		<!--<a class="left carousel-control" href="#myCarousel" data-slide="prev">-->
+
+		<!--</a>-->
+		<!--<a class="right carousel-control" href="#myCarousel" data-slide="next">-->
+
+		<!--</a>-->
+	<!--</div>-->
+</div>
 
 
 <section class="container" style="margin-top: 20px" >
