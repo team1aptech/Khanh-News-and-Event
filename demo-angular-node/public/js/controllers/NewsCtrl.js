@@ -1,9 +1,10 @@
 angular.module('NewsCtrl', [])
 	.controller('NewsController', function($scope, $http) {
             $scope.myData = [];
-            $http.get("/data/data-news.json").then(function (response) {
+            $http.get("data/data-news.json").then(function (response) {
                 $scope.myData = response.data.dataNew;
             });
+
 
             $scope.harleys = [];
             $http.get("data/harleydavidsondata.json").then(function (response) {

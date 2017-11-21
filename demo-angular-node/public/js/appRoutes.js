@@ -5,7 +5,6 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 			templateUrl: 'views/home.html',
 			controller: 'MainController'
 		})
-
 		.when('/news', {
 			templateUrl: 'views/news.html',
 			controller: 'NewsController'
@@ -169,6 +168,13 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
         .when('/store', {
                 templateUrl: 'views/cart/store.html',
                 controller: 'storeController'
+            })
+        .when('/sign-up', {
+                templateUrl: 'views/form/sign-up.html',
+                controller: 'storeController'
+            })
+        .otherwise({
+                redirectTo: "/"
             });
 	$locationProvider.html5Mode(true);
     //Note: By default, Angular will throw a hash (#) into the URL. To get rid of this, we will need to use $locationProvider to enable the HTML History API. This will remove the hash and make pretty URLs

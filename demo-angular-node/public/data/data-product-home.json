@@ -1,0 +1,40 @@
+{
+  "productData":[
+    {
+      "id": 1,
+      "image": "../images/yamaha.jpg",
+      "title": "Yamaha",
+      "link": "/yamaha"
+    },
+    {
+      "id": 2,
+      "image": "../images/2-honda-CBF.jpg",
+      "title": "Honda",
+      "link": "/honda"
+    },
+    {
+      "id": 3,
+      "image": "../images/1-suzuki.jpg",
+      "title": "Suzuki",
+      "link": "/suzuki"
+    },
+    {
+      "id": 4,
+      "image": "../images/harleydavidson.jpg",
+      "title": "Harley-Davidson",
+      "link": "/harley"
+    },
+    {
+      "id": 5,
+      "image": "../images/kawasaki.jpg",
+      "title": "Kawasaki",
+      "link": "/kawasaki"
+    },
+    {
+      "id": 6,
+      "image": "../images/BMW.jpg",
+      "title": "BMW",
+      "link": "/bmw"
+    }
+  ]
+}

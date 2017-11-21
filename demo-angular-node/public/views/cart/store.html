@@ -4,41 +4,147 @@
 
 
     <p>
-        Search: <input ng-model="search">
+        <input ng-model="search" type="text" class="form-control" placeholder="Search For Product" size="15">
     </p>
 
-    <table class="table table-bordered">
-        <tr class="well">
-            <td class="tdRight" colspan="4" >
-                <a href="/cart" title="go to shopping cart" ng-disabled="cart.getTotalCount() < 1">
-                    <i class="icon-shopping-cart" />
-                    <b>{{cart.getTotalCount()}}</b> items, <b>{{cart.getTotalPrice() | currency}}</b>
-                </a>
-            </td>
+    <table class="table table-hover">
+        <tr>
+            <td></td>
+            <td class="tdCenter"><strong>Description</strong></td>
+            <td class="tdCenter"><strong>Price</strong></td>
+            <td></td>
         </tr>
-        <tr ng-repeat="product in store.products | orderBy:'name' | filter:search" >
-            <td class="tdCenter"><img ng-src="img/products/{{product.branch}}.jpg" alt="{{product.name}}" /></td>
+        <div class="row">
+        <tr ng-repeat="product in store.products.bmws | filter:search" >
+            <td class="col-md-4 tdCenter"> <img ng-src="../../images/bmw/{{product.image}}.jpg" alt="{{product.name}}" /></td>
             <td>
-                <a href="#/products/{{product.branch}}"><b>{{product.name}}</b></a><br />
-                {{product.description}}
+                <a href="/products/{{product.branch}}"><b>{{product.name}}</b></a><br />
+                <div ng-repeat="a in product.description">
+                    <ul>
+                        <li>{{a.content}}</li>
+                    </ul>
+                </div>
             </td>
             <td class="tdRight">
                 {{product.price | currency}}
             </td>
             <td class="tdCenter">
-                <a href="" ng-click="cart.addItem(product.branch, product.name, product.price, 1)">
+                <a href="" ng-click="cart.addItem(product.branch, product.name, product.price, 1)" class="btn btn-success">
                     add to cart
                 </a>
             </td>
         </tr>
-        <tr class="well">
-            <td class="tdRight" colspan="4">
-                <a href="/cart" title="go to shopping cart" ng-disabled="cart.getTotalCount() < 1">
-                    <i class="icon-shopping-cart" />
-                    <b>{{cart.getTotalCount()}}</b> items, <b>{{cart.getTotalPrice() | currency}}</b>
-                </a>
-            </td>
-        </tr>
+        </div>
+
+        <div class="row">
+            <tr ng-repeat="product in store.products.yamahaes | orderBy:'name' | filter:search" >
+                <td class="col-md-4 tdCenter"> <img ng-src="../../images/yamaha/{{product.image}}.jpg" alt="{{product.name}}" /></td>
+                <td>
+                    <a href="/products/{{product.branch}}"><b>{{product.name}}</b></a><br />
+                    <div ng-repeat="a in product.description">
+                        <ul>
+                            <li>{{a.content}}</li>
+                        </ul>
+                    </div>
+                </td>
+                <td class="tdRight">
+                    {{product.price | currency}}
+                </td>
+                <td class="tdCenter">
+                    <a href="" ng-click="cart.addItem(product.branch, product.name, product.price, 1)" class="btn btn-success">
+                        add to cart
+                    </a>
+                </td>
+            </tr>
+        </div>
+
+        <div class="row">
+            <tr ng-repeat="product in store.products.hondaes | orderBy:'name' | filter:search" >
+                <td class="col-md-4 tdCenter"> <img ng-src="../../images/honda/{{product.image}}.jpg" alt="{{product.name}}" /></td>
+                <td>
+                    <a href="/products/{{product.branch}}"><b>{{product.name}}</b></a><br />
+                    <div ng-repeat="a in product.description">
+                        <ul>
+                            <li>{{a.content}}</li>
+                        </ul>
+                    </div>
+                </td>
+                <td class="tdRight">
+                    {{product.price | currency}}
+                </td>
+                <td class="tdCenter">
+                    <a href="" ng-click="cart.addItem(product.branch, product.name, product.price, 1)" class="btn btn-success">
+                        add to cart
+                    </a>
+                </td>
+            </tr>
+        </div>
+
+        <div class="row">
+            <tr ng-repeat="product in store.products.kawasakies | orderBy:'name' | filter:search" >
+                <td class="col-md-4 tdCenter"> <img ng-src="../../images/kawasaki/{{product.image}}.jpg" alt="{{product.name}}" /></td>
+                <td>
+                    <a href="/products/{{product.branch}}"><b>{{product.name}}</b></a><br />
+                    <div ng-repeat="a in product.description">
+                        <ul>
+                            <li>{{a.content}}</li>
+                        </ul>
+                    </div>
+                </td>
+                <td class="tdRight">
+                    {{product.price | currency}}
+                </td>
+                <td class="tdCenter">
+                    <a href="" ng-click="cart.addItem(product.branch, product.name, product.price, 1)" class="btn btn-success">
+                        add to cart
+                    </a>
+                </td>
+            </tr>
+        </div>
+
+        <div class="row">
+            <tr ng-repeat="product in store.products.suzukies | orderBy:'name' | filter:search" >
+                <td class="col-md-4 tdCenter"> <img ng-src="../../images/suzuki/{{product.image}}.jpg" alt="{{product.name}}" /></td>
+                <td>
+                    <a href="/products/{{product.branch}}"><b>{{product.name}}</b></a><br />
+                    <div ng-repeat="a in product.description">
+                        <ul>
+                            <li>{{a.content}}</li>
+                        </ul>
+                    </div>
+                </td>
+                <td class="tdRight">
+                    {{product.price | currency}}
+                </td>
+                <td class="tdCenter">
+                    <a href="" ng-click="cart.addItem(product.branch, product.name, product.price, 1)" class="btn btn-success">
+                        add to cart
+                    </a>
+                </td>
+            </tr>
+        </div>
+
+        <div class="row">
+            <tr ng-repeat="product in store.products.harleys | orderBy:'name' | filter:search" >
+                <td class="col-md-4 tdCenter"> <img ng-src="../../images/harley/{{product.image}}.jpg" alt="{{product.name}}" /></td>
+                <td>
+                    <a href="/products/{{product.branch}}"><b>{{product.name}}</b></a><br />
+                    <div ng-repeat="a in product.description">
+                        <ul>
+                            <li>{{a.content}}</li>
+                        </ul>
+                    </div>
+                </td>
+                <td class="tdRight">
+                    {{product.price | currency}}
+                </td>
+                <td class="tdCenter">
+                    <a href="" ng-click="cart.addItem(product.branch, product.name, product.price, 1)" class="btn btn-success">
+                        add to cart
+                    </a>
+                </td>
+            </tr>
+        </div>
     </table>
 
 </div>

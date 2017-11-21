@@ -1,0 +1,40 @@
+{
+  "newsDataHome":[
+    {
+      "id": 1,
+      "image": "../images/1-honda-cb150r_827x510_71504613768.jpg",
+      "title": "Production-Ready Honda 150SS Racer Concept Unveiled In Thailand",
+      "link": "/news/single-page-news-01"
+    },
+    {
+      "id": 2,
+      "image": "../images/2-SuperCub110Concepts.jpg",
+      "title": "Honda will unveil Riding Assist-e concept at the Tokyo Motor Show",
+      "link": "/news/single-page-news-01"
+    },
+    {
+      "id": 3,
+      "image": "../images/3-friday-motogp-practice-mugello-1.jpg",
+      "title": "MotoGP 2017: Dovizioso Keeps Fight Alive With Malaysian GP Victory",
+      "link": "/news/single-page-news-01"
+    },
+    {
+      "id": 4,
+      "image": "../images/4-Suzuki-Wheeltek-Pampanga-19.jpg",
+      "title": "Small and big bike showrooms opened in San Fernando",
+      "link": "/news/single-page-news-01"
+    },
+    {
+      "id": 5,
+      "image": "../images/5-Triumph-Bonneville-Speedmaster-9.jpg",
+      "title": "2017 Trumph Bonneville Speedmaster is modified for the cruising community",
+      "link": "/news/single-page-news-01"
+    },
+    {
+      "id": 6,
+      "image": "../images/6-Yamaha-YZF-R6-high-resolution-11.jpg",
+      "title": "Yamaha launches the all-new YZF-R6. Liter bike features in a middleweight",
+      "link": "/news/single-page-news-01"
+    }
+  ]
+}

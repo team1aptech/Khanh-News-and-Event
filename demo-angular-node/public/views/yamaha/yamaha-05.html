@@ -152,5 +152,69 @@
         </div>
 
     </div>
+    <!--comment-->
+    <hr>
+    <h3> <strong>Leave your comment ({{ commentYamaha05.length }})</strong> </h3>
+    <div class="row">
+        <div  class="col-sm-9">
+            <form class="form-horizontal"  name="commentForm">
+
+                <div class="form-group">
+                    <label for="email" class="col-sm-2 control-label">Comment</label>
+                    <div class="col-sm-10">
+                        <textarea required ng-pattern="/^[a-zA-Z0-9\W]*$/" ng-model="commentYamaha05Data.text" id="email" class="form-control" name="addComment" rows="5" placeholder="Write your comments here"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="Name" class="col-sm-2 control-label">Name</label>
+                    <div class="col-sm-10" >
+                        <input required ng-pattern="/^[a-zA-Z]*$/" ng-model="commentYamaha05Data.author"  type="text" id="Name"  class="form-control" placeholder="Your name" >
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button ng-click="commentForm.$valid && createCommentYamaha05()" class="btn btn-success btn-circle text-uppercase" type="submit" id="submitComment"><span class="glyphicon glyphicon-send"></span> Summit comment</button>
+                    </div>
+                </div>
+                <div class="alert alert-warning" role="alert" ng-show="commentForm.$dirty && !commentForm.$valid">
+                    <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                    <span class="sr-only">Error:</span>
+                    Please finished fill in the form with English word and don't use number for Name.
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="container"  ng-repeat="comment in commentYamaha05">
+        <div class="row">
+            <div class="col-sm-9">
+                <div class="panel panel-white post panel-shadow">
+                    <div class="post-heading">
+                        <div class="pull-left image">
+                            <img src="http://bootdey.com/img/Content/user_1.jpg" class="img-circle avatar" alt="user profile image">
+                        </div>
+                        <div class="pull-left meta">
+                            <div class="title h5">
+                                <a href="#"><b>{{comment.author}}</b></a>
+                                made a post.
+                            </div>
+                            <h6 class="text-muted time">1 minute ago</h6>
+                        </div>
+                    </div>
+                    <div class="post-description">
+                        <p>{{comment.text}}</p>
+                        <div class="stats">
+                            <a href="#" class="btn btn-default stat-item">
+                                <i class="fa fa-thumbs-up icon"></i>12
+                            </a>
+                            <a href="#" class="btn btn-default stat-item">
+                                <i class="fa fa-thumbs-down icon"></i>2
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 

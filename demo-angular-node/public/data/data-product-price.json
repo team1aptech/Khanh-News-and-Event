@@ -5,40 +5,66 @@
               {
               "name": "BMW S1000RR",
               "branch": "BMW",
-              "imga": "bmw-1",
+              "image": "bmw-1",
               "price": 15995,
-              "description": "Liquid-cooled 4-stroke in-line 4-cylinder engine."
+              "description": [
+                { "content" : "Liquid-cooled 4-stroke in-line 4-cylinder engine. "},
+                { "content" : "Four valves per cylinder, double overhead camshafts."},
+                { "content" : "Electronic fuel injection with ride-by-wire throttle system and sensor"},
+                { "content" : "Closed-loop 3-way catalytic converters."},
+                { "content" : "EU-4 norm with electronically controlled interference pipe."}
+              ]
               },
               {
                 "name": "BMW R1200GS",
                 "branch": "BMW",
-                "srcImg1": "bmw-2",
+                "image": "bmw-2",
                 "price": 18895,
-                "description": "Liquid-cooled 4-stroke in-line 4-cylinder engine."
+                "description": [
+                  { "content" : "Air/liquid-cooled four stroke flat twin engine with balancer shaft"},
+                  { "content" : "Four valves per cylinder, double overhead camshaft."},
+                  { "content" : "BMW Motorrad Telelever; stanchion diameter 37 mm, central spring"},
+                  { "content" : "Dual disc brake, floating brake, diameter 305 mm, 4-piston calipers"}
+                ]
               },
               {
                 "name": "BMW C650GT",
                 "branch": "BMW",
-                "srcImg1": "bmw-3",
+                "image": "bmw-3",
                 "price": 10595,
-                "description": "Single disc brake, diameter 270 mm, 2-piston floating caliper."
+                "description": [
+                  { "content" : "31.7 ' (805 mm) Standard; low seat height 30.9'  (785 mm)"},
+                  { "content" : "Available as accessory and/or factory option authorized BMW"},
+                  { "content" : "75.2 (1,910 mm) Standard; low seat inner leg curve (inseam) "},
+                  { "content" : "Single disc brake, diameter 270 mm, 2-piston floating caliper"}
+                ]
               },
               {
                 "name": "BMW S1000XR",
                 "branch": "BMW",
-                "srcImg1": "bmw-4",
+                "image": "bmw-4",
                 "price": 16445,
-                "description": "Installation only by an authorized BMW Motorrad dealer."
+                "description": [
+                  { "content" : "CNC-milled, HP driver footrests, including gear and brake levers"},
+                  { "content" : "High-strength aluminum alloy, light and extremely rigid"},
+                  { "content" : "Detailed operating instructions for ergonomic settings"},
+                  { "content" : "Driver and rear footrests with laser-engraved BMW Motorrad"},
+                  { "content" : "Installation only by an authorized BMW Motorrad dealer"}
+                ]
               },
               {
                 "name": "BMW C EVOLUTION",
                 "branch": "BMW",
-                "srcImg1": "bmw-5",
+                "image": "bmw-5",
                 "price": 13750,
-                "description": "Capacity: approx. 35 l, big enough to accommodate 1 helmet."
+                "description": [
+                  { "content" : "Capacity: approx. 35 l, big enough to accommodate 1 helmet"},
+                  { "content" : " Waterproof and with lid finishers paint available in vehicle"},
+                  { "content" : "Single key locking system for vehicle key possible"},
+                  { "content" : "Optional: liner for topcase, backrest pad for topcase"},
+                  { "content" : "Color: black/Ionic silver metallic"}
+                ]
               }
-
-
             ],
 
     "yamaha":
@@ -46,37 +72,68 @@
               {
                 "name": "YZF-R6 QUICK-SHIFTER ON 2017",
                 "branch": "YAMAHA",
-                "srcImg1": "yamaha-1",
+                "image": "yamaha-1",
                 "price": 20000,
-                "description": "YZF-R6 with next generation R-series design."
+                "description": [
+                  { "content" : "YZF-R6 with next generation R-series design"},
+                  { "content" : "Aggressive face with dual LED position lights"},
+                  { "content" : "Quick Shift System for clutchless upshifts"},
+                  { "content" : "Dual 320mm front discs with radial calipers"}
+                ]
               },
               {
                 "name": "NIKEN Ride the Revolution",
                 "branch": "YAMAHA",
-                "srcImg1": "yamaha-2",
+                "image": "yamaha-2",
                 "price": 50000,
-                "description": "Totally new concept in the motorcycle industry."
+                "description": [
+                  { "content" : "Totally new concept in the motorcycle industry"},
+                  { "content" : "Radical, bold and unique design"},
+                  { "content" : "Deep lean angle, maximum 45 degrees"},
+                  { "content" : "847 cc, 3-cylinder, liquid-cooled, DOHC CP3 engine"},
+                  { "content" : "TCS, QSS, A&S clutch, D-MODE, Cruise Control"}
+                ]
               },
               {
                 "name": "MT-10 SP Speed of Darkness",
                 "branch": "YAMAHA",
-                "srcImg1": "yamaha-3",
+                "image": "yamaha-3",
                 "price": 15000,
-                "description": "Torque-rich 4-cylinder 'CP4' crossplane engine."
+                "description": [
+                  { "content" : "Exclusive blue/silver colour scheme"},
+                  { "content" : "Torque-rich 4-cylinder 'CP4' crossplane engine"},
+                  { "content" : "YCC-T, D-MODE and Traction Control System (TCS)"},
+                  { "content" : "Ultra-short wheelbase aluminium Deltabox chassis"},
+                  { "content" : "High specification brakes with radial front calipers"},
+                  { "content" : "Dynamic mass-forward silhouette"}
+                ]
               },
               {
                 "name": "BOLT R‑SPEC",
                 "branch": "YAMAHA",
-                "srcImg1": "yamaha-4",
+                "image": "yamaha-4",
                 "price": 8900,
-                "description": "Torque-rich 4-cylinder 'CP4' crossplane engine."
+                "description": [
+                  { "content" : "58-cubic-inch (942cc) air-cooled SOHC V-twin; 4 valves"},
+                  { "content" : "The Bolt® R-Spec is stripped down with minimal chrome"},
+                  { "content" : "Sporty leaning-forward riding position"},
+                  { "content" : "Café racer cowling and clip-on handlebars"},
+                  { "content" : "High-torque air-cooled 60-degree V-twin engine"},
+                  { "content" : "Piggyback-style gas rear shocks"}
+                ]
               },
               {
                 "name": "TRACER 900 GT",
                 "branch": "YAMAHA",
-                "srcImg1": "yamaha-5",
+                "image": "yamaha-5",
                 "price": 30000,
-                "description": "847cc liquid-cooled, DOHC, inline 3-cylinder; 12 valves."
+                "description": [
+                  { "content" : "Side cases, high screen, skid plate, fog lamps"},
+                  { "content" : "1199 cc, liquid-cooled, inline, 2-cylinder engine"},
+                  { "content" : "Traction control, cruise control and Yamaha D-MODE"},
+                  { "content" : "Tough spoked aluminium wheels with tubeless tyres"},
+                  { "content" : "Adjustable seat height from 845 mm-870 mm"}
+                ]
               }
             ],
       "honda":
@@ -84,37 +141,61 @@
               {
                 "name": "CBR1000RR",
                 "branch": "HONDA",
-                "srcImg1": "honda-1",
+                "image": "honda-1",
                 "price": 16499,
-                "description": "CBR1000RRis a great way to see the world on two wheels."
+                "description": [
+                  { "content" : "CBR1000RRis a great way to see the world on two wheels . "},
+                  { "content" : "Weighing in at 562 pounds in running order"},
+                  { "content" : "With a 1000cc engine with a 4.0 gallon fuel capacity"},
+                  { "content" : "The most comfortable way possible"}
+                ]
               },
               {
                 "name": "2018 Honda Grom",
                 "branch": "HONDA",
-                "srcImg1": "honda-2",
+                "image": "honda-2",
                 "price": 3549,
-                "description": "CBR1000RRis a great way to see the world on two wheels."
+                "description": [
+                  { "content" : "Sporty leaning-forward riding position"},
+                  { "content" : "Café racer cowling and clip-on handlebars"},
+                  { "content" : "High-torque air-cooled 60-degree V-twin engine"},
+                  { "content" : "Piggyback-style gas rear shocks"}
+                ]
               },
               {
                 "name": "2017 Honda Gold Wing Audio Comfort Navi XM",
                 "branch": "HONDA",
-                "srcImg1": "honda-3",
+                "image": "honda-3",
                 "price": 28979,
-                "description": "CBR1000RRis a great way to see the world on two wheels."
+                "description": [
+                  { "content" : "Gold Wing Audio Comfort Navi XM is a great way to see the world "},
+                  { "content" : "With a 1,832cc engine"},
+                  { "content" : " Get a second opinion to see if this is the cruiser for you!"}
+                ]
               },
               {
                 "name": "2017 Honda Fury",
                 "branch": "HONDA",
-                "srcImg1": "honda-4",
+                "image": "honda-4",
                 "price": 10299,
-                "description": "CBR1000RRis a great way to see the world on two wheels."
+                "description": [
+                  { "content" : "Quality Cruisers have long been a staple in Honda's Powersports"},
+                  { "content" : "The 2017 Honda Fury is a great of modern ingenuity and comfort."},
+                  { "content" : "Weighing in at 663 pounds in running order"},
+                  { "content" : "With 1,312cc engine combined fuel economy of 45 MPG"}
+                ]
               },
               {
                 "name": "2017 Honda Rebel ABS",
                 "branch": "HONDA",
-                "srcImg1": "honda-5",
+                "image": "honda-5",
                 "price": 4699,
-                "description": "2017 Honda Rebel ABS is a great way to see the world on two wheels."
+                "description": [
+                  { "content" : "Quality Cruisers have long been a staple in Honda's Powersports."},
+                  { "content" : "Is a great blend of modern ingenuity and comfort"},
+                  { "content" : "Weighing in at 370 pounds in running order"},
+                  { "content" : "The technology just keeps getting better."}
+                ]
               }
 
             ],
@@ -123,37 +204,66 @@
               {
                 "name": "Kawasaki NINJA H2",
                 "branch": "Kawasaki",
-                "srcImg1": "kawasaki-1",
+                "image": "kawasaki-1",
                 "price": 28000,
-                "description": "Dual radial-mount, opposed 4-piston calipers."
+                "description": [
+                  { "content" : "Dual radial-mount, opposed 4-piston calipers"},
+                  { "content" : "With dual semi-floating 330mm discs, KIBS ABS"},
+                  { "content" : "Trellis, high-tensile steel, with swingarm mounting plate"},
+                  { "content" : "12 Month Limited Warranty"}
+                ]
               },
               {
                 "name": "NINJA ZX™-6R ABS KRT EDITION",
                 "branch": "Kawasaki",
-                "srcImg1": "kawasaki-2",
+                "image": "kawasaki-2",
                 "price": 11999,
-                "description": "CBR1000RRis a great way to see the world on two wheels."
+                "description": [
+                  { "content" : "636cc inline-four engine offers racetrack-ready on the street"},
+                  { "content" : "3-mode KTRC traction control tuned to cover a wide-range of riding"},
+                  { "content" : "Showa Separate Function Fork Big Piston (SFF-BP) offers broad"},
+                  { "content" : "FCC clutch with assist and slipper functions offers light clutch pull "},
+                  { "content" : "And minimizes wheel chatter caused by aggressive downshifting"},
+                  { "content" : "Kawasaki Intelligent anti-lock Brake System (KIBS) ABS"}
+                ]
               },
               {
                 "name": "NINJA 300 ABS WINTER TEST EDITION",
                 "branch": "Kawasaki",
-                "srcImg1": "kawasaki-3",
+                "image": "kawasaki-3",
                 "price": 5599,
-                "description": "CBR1000RRis a great way to see the world on two wheels."
+                "description": [
+                  { "content" : "Smooth Power: Compact 296cc parallel-twin engine"},
+                  { "content" : "Delivers smooth response and strong acceleration"},
+                  { "content" : "New and exclusive: wider 150mm rear tire, taller windshield"},
+                  { "content" : "The imposing stealth-like matte black color and graphic scheme"},
+                  { "content" : "A snowflake with the Japanese symbol for winter"},
+                  { "content" : "For more features, visit the Ninja® 300 ABS product page"}
+                ]
               },
               {
                 "name": "KAWASAKI VULCAN 1700 VOYAGER® ABS",
                 "branch": "Kawasaki",
-                "srcImg1": "kawasaki-4",
+                "image": "kawasaki-4",
                 "price": 17499,
-                "description": "CBR1000RRis a great way to see the world on two wheels."
+                "description": [
+                  { "content" : "Fuel-injected 52-degree 1,700cc V-twin delivers high torque levels"},
+                  { "content" : "Electronic cruise control system can be activated in third gear"},
+                  { "content" : "Stylish, frame-mounted fairing keeps steering feel light "},
+                  { "content" : "Comes with a 36-month limited warranty"}
+                ]
               },
               {
                 "name": "KAWASAKI KLX®250 CAMO",
                 "branch": "Kawasaki",
-                "srcImg1": "kawasaki-5",
+                "image": "kawasaki-5",
                 "price": 5549,
-                "description": "2017 Honda Rebel ABS is a great way to see the world on two wheels."
+                "description": [
+                  { "content" : "New fuel injection system for easier starting at all elevations"},
+                  { "content" : "improved fuel economy and maximum performance"},
+                  { "content" : "Adjustable front and rear suspension for a customized ride"},
+                  { "content" : "Low seat height and ergonomics to rider confidence and comfort"}
+                ]
               }
 
             ],
@@ -162,37 +272,61 @@
         {
           "name": "GSX-R1000 ABS",
           "branch": "Sukuki",
-          "srcImg1": "Sukuki-1",
+          "image": "suzuki-1",
           "price": 23990,
-          "description": "Dual radial-mount, opposed 4-piston calipers."
+          "description": [
+            { "content" : "We won the 2017 ASBK Championship, Now You Win!"},
+            { "content" : "Bonus Genuine Suzuki Quick-Shift System (fitting included FOC)"},
+            { "content" : "Bonus Yoshimura Alpha Stainless Slip-On Muffler"}
+          ]
         },
         {
           "name": "2017 HAYABUSA",
           "branch": "Sukuki",
-          "srcImg1": "Sukuki-2",
+          "image": "suzuki-2",
           "price": 20790,
-          "description": "CBR1000RRis a great way to see the world on two wheels."
+          "description": [
+            { "content" : "Legendary inline-four power plant"},
+            { "content" : "Suzuki Drive Mode Selector (S-DMS)"},
+            { "content" : "Brembo Monobloc front brake calipers with ABS"},
+            { "content" : "Lightweight titanium valves"}
+          ]
         },
         {
           "name": "2017 GSX-R750",
           "branch": "Sukuki",
-          "srcImg1": "Sukuki-3",
+          "image": "suzuki-3",
           "price": 19990,
-          "description": "CBR1000RRis a great way to see the world on two wheels."
+          "description": [
+            { "content" : "State of the art in-line, 4-cylinder engine"},
+            { "content" : "Suzuki Drive Mode Selector (S-DMS)"},
+            { "content" : "Brembo Monobloc front brake calipers"},
+            { "content" : "Showa Big Piston Fork (BPF) & Electronic Steering Damper"}
+          ]
         },
         {
           "name": "2017 GSX-R600",
           "branch": "Sukuki",
-          "srcImg1": "Sukuki-4",
+          "image": "suzuki-4",
           "price": 16490,
-          "description": "CBR1000RRis a great way to see the world on two wheels."
+          "description": [
+            { "content" : "State of the art in-line, 4-cylinder engine"},
+            { "content" : "Suzuki Drive Mode Selector (S-DMS)"},
+            { "content" : "Brembo Monobloc front brake calipers"},
+            { "content" : "Showa Big Piston Fork (BPF) & Electronic Steering Damper"}
+          ]
         },
         {
           "name": "DR-Z70 SPECIAL CHRISTMAS PRICING",
           "branch": "Sukuki",
-          "srcImg1": "Sukuki-5",
+          "image": "suzuki-5",
           "price": 2090,
-          "description": "2017 Honda Rebel ABS is a great way to see the world on two wheels."
+          "description": [
+            { "content" : "70cc Ultra-reliable, 4-Stroke engine"},
+            { "content" : "Electric Start with backup kick-starter"},
+            { "content" : "3-speed semi-automatic transmission"},
+            { "content" : "Adjustable throttle limiter and keyed ignition"}
+          ]
         }
       ],
       "harley":
@@ -200,37 +334,57 @@
         {
           "name": "2018 Harley-Davidson Softail Fat Bob",
           "branch": "Harley Davidson",
-          "srcImg1": "Harley Davidson-1",
+          "image": "harley-1",
           "price": 16999,
-          "description": "Dual radial-mount, opposed 4-piston calipers."
+          "description": [
+            { "content" : "Is a great way to turn heads while having a blast on two wheels."},
+            { "content" : "Allows for ample cruising with a 3.6 gallon fuel capacity."},
+            { "content" : "With 107 ci engine to get you ripping down the road with ease."}
+          ]
         },
         {
           "name": "2018 Harley-Davidson Softail Low Rider",
           "branch": "Harley Davidson",
-          "srcImg1": "Harley Davidson-2",
+          "image": "harley-2",
           "price": 14999,
-          "description": "CBR1000RRis a great way to see the world on two wheels."
+          "description": [
+            { "content" : "Is a great way to turn heads while having a blast on two wheels."},
+            { "content" : "Allows for ample cruising with a 5.0 gallon fuel capacity."},
+            { "content" : "The 2018 Harley-Davidson Softail Low Rider boasts ."}
+          ]
         },
         {
           "name": "2018 Harley-Davidson Softail Fat Bob 114",
           "branch": "Harley Davidson",
-          "srcImg1": "Harley Davidson-3",
+          "image": "harley-3",
           "price": 18699,
-          "description": "CBR1000RRis a great way to see the world on two wheels."
+          "description": [
+            { "content" : "On Harley-Davidson's 2018 Softail Fat Bob 114 is a great ."},
+            { "content" : "Allows for ample cruising with a 3.6 gallon fuel capacity"},
+            { "content" : "With 114 ci engine to get you ripping down the road with ease."}
+          ]
         },
         {
           "name": "2018 Harley-Davidson Softail Street Bob",
           "branch": "Harley Davidson",
-          "srcImg1": "Harley Davidson-4",
+          "image": "harley-4",
           "price": 14499,
-          "description": "CBR1000RRis a great way to see the world on two wheels."
+          "description": [
+            { "content" : "Is a great way to turn heads while having a blast on two wheels"},
+            { "content" : "Allows for ample cruising with a 3.5 gallon fuel capacity."},
+            { "content" : "With 107 ci engine to get you ripping down the road with ease."}
+          ]
         },
         {
           "name": "2018 Harley-Davidson Softail Breakout 114",
           "branch": "Harley Davidson",
-          "srcImg1": "Harley Davidson-5",
+          "image": "harley-5",
           "price": 20299,
-          "description": "2017 Honda Rebel ABS is a great way to see the world on two wheels."
+          "description": [
+            { "content" : "Is a great way to turn heads while having a blast on two wheels."},
+            { "content" : "Allows for ample cruising with a 3.5 gallon fuel capacity."},
+            { "content" : "With114 ci engine to get you ripping down the road with ease. "}
+          ]
         }
 
       ]
