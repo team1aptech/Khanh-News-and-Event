@@ -16,8 +16,8 @@
         </tr>
         <div class="row">
         <tr ng-repeat="product in store.products.bmws | filter:search" >
-            <td class="col-md-4 tdCenter"> <img ng-src="../../images/bmw/{{product.image}}.jpg" alt="{{product.name}}" /></td>
-            <td>
+            <td class="col-sm-3 tdCenter img-hide"> <img ng-src="../../images/bmw/{{product.image}}.jpg" alt="{{product.name}}" /></td>
+            <td class="col-sm-3 ">
                 <a href="/products/{{product.branch}}"><b>{{product.name}}</b></a><br />
                 <div ng-repeat="a in product.description">
                     <ul>
@@ -25,10 +25,10 @@
                     </ul>
                 </div>
             </td>
-            <td class="tdRight">
+            <td class="col-sm-3 tdCenter">
                 {{product.price | currency}}
             </td>
-            <td class="tdCenter">
+            <td class="col-sm-3 tdCenter">
                 <a href="" ng-click="cart.addItem(product.branch, product.name, product.price, 1)" class="btn btn-success">
                     add to cart
                 </a>
@@ -38,8 +38,8 @@
 
         <div class="row">
             <tr ng-repeat="product in store.products.yamahaes | orderBy:'name' | filter:search" >
-                <td class="col-md-4 tdCenter"> <img ng-src="../../images/yamaha/{{product.image}}.jpg" alt="{{product.name}}" /></td>
-                <td>
+                <td class="col-sm-3 tdCenter img-hide"> <img ng-src="../../images/yamaha/{{product.image}}.jpg" alt="{{product.name}}" /></td>
+                <td class="col-sm-3">
                     <a href="/products/{{product.branch}}"><b>{{product.name}}</b></a><br />
                     <div ng-repeat="a in product.description">
                         <ul>
@@ -47,10 +47,10 @@
                         </ul>
                     </div>
                 </td>
-                <td class="tdRight">
+                <td class="col-sm-3 tdCenter">
                     {{product.price | currency}}
                 </td>
-                <td class="tdCenter">
+                <td class="col-sm-3 tdCenter">
                     <a href="" ng-click="cart.addItem(product.branch, product.name, product.price, 1)" class="btn btn-success">
                         add to cart
                     </a>
@@ -60,7 +60,7 @@
 
         <div class="row">
             <tr ng-repeat="product in store.products.hondaes | orderBy:'name' | filter:search" >
-                <td class="col-md-4 tdCenter"> <img ng-src="../../images/honda/{{product.image}}.jpg" alt="{{product.name}}" /></td>
+                <td class="col-sm-3 tdCenter img-hide"> <img ng-src="../../images/honda/{{product.image}}.jpg" alt="{{product.name}}" /></td>
                 <td>
                     <a href="/products/{{product.branch}}"><b>{{product.name}}</b></a><br />
                     <div ng-repeat="a in product.description">
@@ -69,10 +69,10 @@
                         </ul>
                     </div>
                 </td>
-                <td class="tdRight">
+                <td class="col-sm-3 tdCenter">
                     {{product.price | currency}}
                 </td>
-                <td class="tdCenter">
+                <td class="col-sm-3 tdCenter">
                     <a href="" ng-click="cart.addItem(product.branch, product.name, product.price, 1)" class="btn btn-success">
                         add to cart
                     </a>
@@ -82,8 +82,8 @@
 
         <div class="row">
             <tr ng-repeat="product in store.products.kawasakies | orderBy:'name' | filter:search" >
-                <td class="col-md-4 tdCenter"> <img ng-src="../../images/kawasaki/{{product.image}}.jpg" alt="{{product.name}}" /></td>
-                <td>
+                <td class="col-sm-3 tdCenter img-hide"> <img ng-src="../../images/kawasaki/{{product.image}}.jpg" alt="{{product.name}}" /></td>
+                <td class="col-sm-3 tdCenter">
                     <a href="/products/{{product.branch}}"><b>{{product.name}}</b></a><br />
                     <div ng-repeat="a in product.description">
                         <ul>
@@ -91,10 +91,10 @@
                         </ul>
                     </div>
                 </td>
-                <td class="tdRight">
+                <td class="col-sm-3 tdCenter">
                     {{product.price | currency}}
                 </td>
-                <td class="tdCenter">
+                <td class="col-sm-3 tdCenter">
                     <a href="" ng-click="cart.addItem(product.branch, product.name, product.price, 1)" class="btn btn-success">
                         add to cart
                     </a>
@@ -104,8 +104,8 @@
 
         <div class="row">
             <tr ng-repeat="product in store.products.suzukies | orderBy:'name' | filter:search" >
-                <td class="col-md-4 tdCenter"> <img ng-src="../../images/suzuki/{{product.image}}.jpg" alt="{{product.name}}" /></td>
-                <td>
+                <td class="col-sm-3 tdCenter img-hide"> <img ng-src="../../images/suzuki/{{product.image}}.jpg" alt="{{product.name}}" /></td>
+                <td class="col-sm-3 tdCenter">
                     <a href="/products/{{product.branch}}"><b>{{product.name}}</b></a><br />
                     <div ng-repeat="a in product.description">
                         <ul>
@@ -113,10 +113,10 @@
                         </ul>
                     </div>
                 </td>
-                <td class="tdRight">
+                <td class="col-sm-3 tdCenter">
                     {{product.price | currency}}
                 </td>
-                <td class="tdCenter">
+                <td class="col-sm-3 tdCenter">
                     <a href="" ng-click="cart.addItem(product.branch, product.name, product.price, 1)" class="btn btn-success">
                         add to cart
                     </a>
@@ -126,8 +126,8 @@
 
         <div class="row">
             <tr ng-repeat="product in store.products.harleys | orderBy:'name' | filter:search" >
-                <td class="col-md-4 tdCenter"> <img ng-src="../../images/harley/{{product.image}}.jpg" alt="{{product.name}}" /></td>
-                <td>
+                <td class="col-sm-3 tdCenter img-hide"> <img ng-src="../../images/harley/{{product.image}}.jpg" alt="{{product.name}}" /></td>
+                <td class="col-sm-3 tdCenter">
                     <a href="/products/{{product.branch}}"><b>{{product.name}}</b></a><br />
                     <div ng-repeat="a in product.description">
                         <ul>
@@ -135,10 +135,10 @@
                         </ul>
                     </div>
                 </td>
-                <td class="tdRight">
+                <td class="col-sm-3 tdCenter">
                     {{product.price | currency}}
                 </td>
-                <td class="tdCenter">
+                <td class="col-sm-3 tdCenter">
                     <a href="" ng-click="cart.addItem(product.branch, product.name, product.price, 1)" class="btn btn-success">
                         add to cart
                     </a>

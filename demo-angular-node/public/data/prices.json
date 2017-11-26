@@ -1,0 +1,51 @@
+{"manufacture":[
+  {"honda":[
+    {"name": "HONDA NM4 2018", "color": "white/black/blue", "price":"19,000$"},
+    {"name": "HONDA Grom 2018", "color": "white/black/blue", "price":"3,549$"},
+    {"name": "HONDA Gold Wing Audio Comfort Navi XM", "color": "white/black/blue", "price":"28,979$"},
+    {"name": "HONDA Fury 2017", "color": "white/black/blue", "price":"10,299$"},
+    {"name": "HONDA Rebel 300 ABS 2017", "color": "white/black/blue", "price":"4,699$"}
+  ]},
+  {"yamaha":[
+    {"name": "YAMAHA YZF-R6", "color": "white/black/blue", "price":"20,000$"},
+    {"name": "YAMAHA NIKEN", "color": "white/black/blue", "price":"15,549$"},
+    {"name": "YAMAHA MT-10", "color": "white/black/blue", "price":"15,000$"},
+    {"name": "YAMAHA XV950", "color": "white/black/blue", "price":"8,900$"},
+    {"name": "YAMAHA XT1200ZE", "color": "white/black/blue", "price":"30,000$"}
+  ]},
+  {"suzuki":[
+    {"name": "SUZUKI GSX-R1000 ABS 2017", "color": "white/black/blue", "price":"1.500$"},
+    {"name": "SUZUKI HAYABUSA 2017", "color": "white/black/blue", "price":"2,000$"},
+    {"name": "SUZUKI GSX-R750 2017", "color": "white/black/blue", "price":"19,990$"},
+    {"name": "SUZUKI GSX-R600 2017", "color": "white/black/blue", "price":"13,790$"},
+    {"name": "SUZUKI V-STROM 650", "color": "white/black/blue", "price":"9,990$"}
+  ]},
+  {"kawasaki":[
+    {"name": "KAWASAKI NINJA H2", "color": "white/black/blue", "price":"11,999$"},
+    {"name": "KAWASAKI NINJA® ZX™-6R ABS", "color": "white/black/blue", "price":"2,000$"},
+    {"name": "KAWASAKI NINJA® 300 ABS WINTER", "color": "white/black/blue", "price":"15,599$"},
+    {"name": "KAWASAKI VULCAN 1700 VOYAGER® ABS", "color": "white/black/blue", "price":"17,499$"},
+    {"name": "KAWASAKI KLX®250 CAMO", "color": "white/black/blue", "price":"5,549$"}
+  ]},
+  {"BMW":[
+    {"name": "BMW S 1000 RR", "color": "white/black/blue", "price":"15,995$"},
+    {"name": "BMW R 1200 GS", "color": "white/black/blue", "price":"18,895$"},
+    {"name": "BMW C 650 GT", "color": "white/black/blue", "price":"10,595$"},
+    {"name": "BMW S 1000 XR", "color": "white/black/blue", "price":"16,445$"},
+    {"name": "BMW C EVOLUTION", "color": "white/black/blue", "price":"13,750$"}
+  ]},
+  {"HARLEYDAVIDSON":[
+    {"name": "HARLEY-DAVIDSON Softail Fat Bob 2018", "color": "white/black/blue", "price":"16,999$"},
+    {"name": "HARLEY-DAVIDSON Softail Low Rider", "color": "white/black/blue", "price":"14,999$"},
+    {"name": "HARLEY-DAVIDSON Softail Fat Bob 114", "color": "white/black/blue", "price":"118.699$"},
+    {"name": "HHARLEY-DAVIDSON Softail Street Bob", "color": "white/black/blue", "price":"14,499$"},
+    {"name": "HARLEY-DAVIDSON Softail Breakout 114", "color": "white/black/blue", "price":"20,299$"}
+  ]},
+  {"TRIUMPH":[
+    {"name": "TRIUMPH ROCKET III ROADSTER", "color": "white/black/blue", "price":"15,784$"},
+    {"name": "TRIUMPH STREET TRIPLE", "color": "white/black/blue", "price":"13,290$"},
+    {"name": "TRIUMPH STREET TRIPLE R", "color": "white/black/blue", "price":"15,290$"},
+    {"name": "TRIUMPH STREET TRIPLE 660", "color": "white/black/blue", "price":"13,999$"},
+    {"name": "TRIUMPH THUNDERBIRD LT", "color": "white/black/blue", "price":"20,299$"}
+  ]}
+]}

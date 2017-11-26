@@ -1,0 +1,53 @@
+<div nav-bar class="navbar navbar-fixed-top"></div>
+
+<div class="container-fluid" style="margin-top: 70px" ng-repeat="x in prices">
+    <table class="table table-responsive table-bordered table-hover table-striped">
+        <thead>
+        <tr >
+            <th class="col-xs-6 col-md-6 col-lg-6" style="background-color: grey">Product</th>
+            <th class="col-xs-3 col-md-3 col-lg-3" style="background-color: grey">Color</th>
+            <th class="col-xs-3 col-md-3 col-lg-3" style="background-color: grey">Price</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="y in x.honda">
+            <td>{{y.name}}</td>
+            <td>{{y.color}}</td>
+            <td>{{y.price}}</td>
+        </tr>
+        <tr ng-repeat="y in x.yamaha">
+            <td>{{y.name}}</td>
+            <td>{{y.color}}</td>
+            <td>{{y.price}}</td>
+        </tr>
+        <tr ng-repeat="y in x.suzuki">
+            <td>{{y.name}}</td>
+            <td>{{y.color}}</td>
+            <td>{{y.price}}</td>
+        </tr>
+        <tr ng-repeat="y in x.kawasaki">
+            <td>{{y.name}}</td>
+            <td>{{y.color}}</td>
+            <td>{{y.price}}</td>
+        </tr>
+        <tr ng-repeat="y in x.BMW">
+            <td>{{y.name}}</td>
+            <td>{{y.color}}</td>
+            <td>{{y.price}}</td>
+        </tr>
+        <tr ng-repeat="y in x.HARLEYDAVIDSON">
+            <td>{{y.name}}</td>
+            <td>{{y.color}}</td>
+            <td>{{y.price}}</td>
+        </tr>
+        <tr ng-repeat="y in x.TRIUMPH">
+            <td>{{y.name}}</td>
+            <td>{{y.color}}</td>
+            <td>{{y.price}}</td>
+        </tr>
+        </tbody>
+
+    </table>
+
+</div>
+

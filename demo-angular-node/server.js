@@ -40,6 +40,7 @@ var Yamaha02 = mongoose.model('Yamaha02', commentSchema);
 var Yamaha03 = mongoose.model('Yamaha03', commentSchema);
 var Yamaha04 = mongoose.model('Yamaha04', commentSchema);
 var Yamaha05 = mongoose.model('Yamaha05', commentSchema);
+var CommentNews01 = mongoose.model('CommentNews01', commentSchema);
 
 var userSchema = mongoose.Schema({
     email: String,
@@ -86,6 +87,34 @@ app.post('/api/user', function (req, res) {
                 });
             }
         })
+    })
+});
+
+//comments for single page news 01
+app.get('/api/comments/commentNews-01', function (req, res) {
+    CommentNews01.find({},function (err, comments) {
+        if(err){
+            res.send(err);
+        } else {
+            res.json(comments);     //return all comments in JSON format
+        }
+    });
+});
+app.post('/api/comments/commentNews-01', function (req, res) {
+    //create comment
+    CommentNews01.create({
+        text: req.body.text,
+        author: req.body.author
+    }, function (err, comment) {
+        if(err){
+            res.send(err);
+        } else{
+            CommentNews01.find({},function (err, comments) {
+                if(err)
+                    res.send(err);
+                res.json(comments);     //return all comments in JSON format
+            });
+        }
     })
 });
 

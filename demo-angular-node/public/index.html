@@ -19,23 +19,32 @@
 	<!--google font-->
 	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i" rel="stylesheet">
 	<!--font for detail product-->
 	<link href="https://fonts.googleapis.com/css?family=Fenix" rel="stylesheet">
 	<!--Custom style-->
 	<link rel="stylesheet" href="css/shopping-cart-style.css">
 	<link rel="stylesheet" href="css/form.css">
 	<link rel="stylesheet" href="css/add-comments.css">
+	<link rel="icon" type="image/x-icon" href="images/icon/motorcycle.jpg">
 
 	<style type="text/css">
 		html,
 		body {
 			height: 100%;
 		}
+		.fa{
+			font-size: 20px;
+		}
+		.navbar-nav>li>a {
+			padding-bottom: 10px;
+		}
 		img {
 			max-width: 100%;
 		}
 		.navbar-inverse {
-			background: #2c3e50;
+			/*background: #2c3e50;*/
+			background: #252e31;
 			color: white;
 		}
 		.navbar-inverse .navbar-brand, .navbar-inverse a{
@@ -124,6 +133,9 @@
 			border-bottom: 4px black solid;
 
 		}
+		.nav>li>a {
+			padding: 15px 10px;
+		}
 
 		@media screen and (max-width: 1200px){
 			.search1{
@@ -147,7 +159,45 @@
 			.search3 {
 				display: none!important;
 			}
+
 		}
+		@media screen and  (max-width: 768px) {
+			.fixnav{
+				width: 100%;
+			}
+		}
+		@media screen and  (max-width: 500px) {
+			.img-hide {
+				display: none!important;
+			}
+		}
+
+		/*@media (max-width: 991px) {*/
+		/*.navbar-toggle {*/
+		/*display: block;*/
+		/*margin-right: 5px;*/
+		/*}*/
+
+		/*}*/
+		/*@media (max-width: 991px) {*/
+		/*.navbar-collapse.collapse {*/
+		/*display: none;*/
+
+		/*}*/
+		/*}*/
+		.fixnav{
+			position: fixed;
+			/*width: 100%;*/
+			top: 0;
+			z-index: 1;
+		}
+		#fixNav{
+
+		}
+		.navbar-nav {
+			margin: 0px 0px;
+		}
+
 
 
 	</style>
@@ -175,33 +225,34 @@
 
 </head>
 <body ng-app="myApp">
-	<!-- ANGULAR DYNAMIC CONTENT -->
-	<div ng-view></div>
+<!-- ANGULAR DYNAMIC CONTENT -->
+<div ng-view></div>
 
-	<footer class="footer">
-		<div class="row" style="margin-top: -20px">
-			<div class="col-sm-3 col-md-3 col-lg-3">
+<footer class="footer ">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4 col-md-4 col-lg-4">
 				<div class="link-area">
 					<h3>FOLLOW US</h3>
 					<P>We specialize in selling motor vehicles and associated services.</P>
-					<div class="container col-sm-12 col-md-12 col-lg-12">
-						<div class="col-xs-4">
+					<div class="container col-sm-12 col-md-12 col-lg-12" style="margin-left: -30px;">
+						<div class="col-xs-4" >
 							<i class="fa fa-facebook-square fa-6x" style="font-size: 50px"  aria-hidden="true"></i>
 							<!--<a href="#" class="fa fa-facebook"></a>-->
 						</div>
-						<div class="col-xs-4">
+						<div class="col-xs-4" style="margin-left: -30px;">
 							<!--<a href="#" class="fa fa-twitter"></a>-->
 							<i class="fa fa-twitter-square fa-6x" style="font-size: 50px"  aria-hidden="true"></i>
 
 						</div>
-						<div class="col-xs-4">
+						<div class="col-xs-4" style="margin-left: -30px;">
 							<!--<a href="#" class="fa fa-google"></a>-->
 							<i class="fa fa-google-plus-square fa-6x" style="font-size: 50px"  aria-hidden="true"></i>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-3 col-md-3 col-lg-3">
+			<div class="col-sm-2 col-md-2 col-lg-2">
 				<div class="link-area">
 					<h3>SITE</h3>
 					<ul class="list-unstyled">
@@ -246,7 +297,7 @@
 						<li><a href="#"> Method Finance</a></li>
 						<li><a href="#"> Insurance</a></li>
 					</ul>
-					<div class="container col-sm-12 col-md-12 col-lg-12 margin-bottom: 20px">
+					<div class="container col-sm-12 col-md-12 col-lg-12" style="margin-left: -30px;">
 						<div class="col-xs-4">
 							<i class="fa fa-cc-paypal fa-6x" style="font-size: 50px"  aria-hidden="true"></i>
 						</div>
@@ -260,27 +311,42 @@
 				</div>
 			</div>
 		</div>
-		<section  style="width: 100%; height:auto; text-align: center; margin-bottom: -20px " >
-			<div class="container">
-				<div>
-					<p> <strong>&copy; Copyright Team 1 </strong> </p>
-				</div>
+
+	</div>
+	<section  style="width: 100%; height:auto; text-align: center; margin-bottom: -20px " >
+		<div class="container">
+			<div>
+				<p> <strong>&copy; Copyright Team 1 </strong> </p>
 			</div>
-		</section>
-	</footer>
+		</div>
+	</section>
+</footer>
 
 <!--</div>-->
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.10';
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="bootstrap-3.3.7/dist/js/bootstrap.js"></script>
 <!--<script src="/angular.min.js"></script>-->
-
+	<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.10';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+	</script>
+	<script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if($(window).scrollTop() > 200){
+                    $('#fixNav').addClass('fixnav');
+                }else{
+                    $('#fixNav').removeClass('fixnav');
+                }
+            })
+        })
+	</script>
 </body>
 </html>

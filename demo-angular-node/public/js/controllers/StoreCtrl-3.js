@@ -53,7 +53,13 @@ storeApp.controller("storeController", function ($scope, DataService,$http,$loca
     $scope.store = DataService.store;
     $scope.cart = DataService.cart;
 
+    $scope.prices = [];
+    $http.get("data/prices.json").then(function (response) {
+        $scope.prices = response.data.manufacture;
+    });
+
     //comment data
+    $scope.commentSinglePageNews01Data = {};
     $scope.commentBmw01Data = {};
     $scope.commentBmw02Data = {};
     $scope.commentBmw03Data = {};
@@ -85,6 +91,7 @@ storeApp.controller("storeController", function ($scope, DataService,$http,$loca
     $scope.commentYamaha04Data = {};
     $scope.commentYamaha05Data = {};
     $scope.userData = {};
+    $scope.commentSinglePageNews01 = [];
     $scope.commentBmw01 = [];
     $scope.commentBmw02 = [];
     $scope.commentBmw03 = [];
@@ -118,7 +125,10 @@ storeApp.controller("storeController", function ($scope, DataService,$http,$loca
     $scope.user = [];
     $http.get('/api/user').then(function(response) {
         $scope.user = response.data;
+    });
 
+    $http.get('/api/comments/commentNews-01').then(function(response) {
+        $scope.commentSinglePageNews01 = response.data;
     });
 
     $http.get('/api/comments/bmw-01').then(function(response) {
@@ -212,7 +222,6 @@ storeApp.controller("storeController", function ($scope, DataService,$http,$loca
         $scope.commentYamaha05 = response.data;
     });
 
-
     $scope.showUser = $localStorage.findUser;
 
     $scope.showPermanently = function(){
@@ -235,6 +244,13 @@ storeApp.controller("storeController", function ($scope, DataService,$http,$loca
         $http.post('/api/user', $scope.userData).then(function (response) {
             $scope.user = response.data;
         });
+    };
+
+    $scope.createCommentSinglePageNews01 = function () {
+        $http.post('/api/comments/commentNews-01', $scope.commentSinglePageNews01Data).then(function (response) {
+            $scope.commentSinglePageNews01Data = {};
+            $scope.commentSinglePageNews01 = response.data;
+        })
     };
 
     $scope.createCommentBmw01 = function () {

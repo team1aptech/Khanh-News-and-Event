@@ -11,7 +11,7 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 		})
         .when('/news/single-page-news-01', {
             templateUrl: 'views/single-page-news-01.html',
-            controller: 'DetailController'
+            controller: 'storeController'
         })
         .when('/harley', {
             templateUrl: 'views/offer-harley.html',
@@ -175,6 +175,10 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
             })
         .when('/sign-in', {
             templateUrl: 'views/form/sign-in.html',
+            controller: 'storeController'
+        })
+        .when('/prices', {
+            templateUrl: 'views/prices.html',
             controller: 'storeController'
         })
         .otherwise({

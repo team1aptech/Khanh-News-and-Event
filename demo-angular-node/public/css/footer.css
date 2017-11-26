@@ -2,7 +2,8 @@
     width: 100%;
     margin-top: 20px;
     margin-bottom: initial;
-    background-color: black;
+    /*background-color: black;*/
+    background: #252e31;
     color: white;
     margin-bottom: 5px;
     padding: 20px 10px;
